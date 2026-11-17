@@ -213,10 +213,26 @@ export const getMenus = async (req, res, next) => {
 };
 
 // Create Inquiries
+const pickEnquiry = (body, type) => ({
+  name: body.name,
+  email: body.email,
+  phone: body.phone,
+  company: body.company,
+  subject: body.subject,
+  message: body.message,
+  quantity: body.quantity,
+  productInterest: body.productInterest || body.dosageInterest,
+  businessType: body.businessType,
+  location: body.location,
+  productName: body.productName,
+  productSlug: body.productSlug,
+  type,
+});
+
 export const createEnquiry = async (req, res, next) => {
   try {
-    const enquiry = await Enquiry.create({ ...req.body, type: 'contact' });
-    res.status(201).json({ success: true, data: enquiry, message: 'Enquiry submitted successfully' });
+    const enquiry = await Enquiry.create(pickEnquiry(req.body, 'contact'));
+    res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Enquiry submitted successfully' });
   } catch (err) {
     next(err);
   }
@@ -224,8 +240,8 @@ export const createEnquiry = async (req, res, next) => {
 
 export const createPartnerEnquiry = async (req, res, next) => {
   try {
-    const enquiry = await Enquiry.create({ ...req.body, type: 'partner' });
-    res.status(201).json({ success: true, data: enquiry, message: 'Partner enquiry submitted successfully' });
+    const enquiry = await Enquiry.create(pickEnquiry(req.body, 'partner'));
+    res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Partner enquiry submitted successfully' });
   } catch (err) {
     next(err);
   }
@@ -233,8 +249,8 @@ export const createPartnerEnquiry = async (req, res, next) => {
 
 export const createProductEnquiry = async (req, res, next) => {
   try {
-    const enquiry = await Enquiry.create({ ...req.body, type: 'product' });
-    res.status(201).json({ success: true, data: enquiry, message: 'Product enquiry submitted successfully' });
+    const enquiry = await Enquiry.create(pickEnquiry(req.body, 'product'));
+    res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Product enquiry submitted successfully' });
   } catch (err) {
     next(err);
   }
