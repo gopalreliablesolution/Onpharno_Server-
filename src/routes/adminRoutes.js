@@ -19,38 +19,40 @@ import {
   enquiriesCrud,
   usersCrud,
   mediaCrud,
+  changeMyPassword,
 } from '../controllers/adminController.js';
 
 const router = express.Router();
 
-// Apply protect middleware to all admin routes
 router.use(protect);
 
-router.get('/dashboard-stats', getDashboardStats);
-router.post('/upload', upload.single('file'), uploadFile);
-router.put('/settings', updateSettings);
+router.get('/dashboard-stats', authorize('superadmin', 'admin', 'editor'), getDashboardStats);
+router.post('/upload', authorize('superadmin', 'admin', 'editor'), upload.single('file'), uploadFile);
+router.put('/settings', authorize('superadmin'), updateSettings);
+router.post('/users/change-password', authorize('superadmin', 'admin', 'editor'), changeMyPassword);
 
-// Helper to register standard CRUD endpoints
-const registerCrudRoutes = (prefix, handler) => {
-  router.get(`/${prefix}`, handler.getAll);
-  router.post(`/${prefix}`, handler.create);
-  router.put(`/${prefix}/:id`, handler.update);
-  router.delete(`/${prefix}/:id`, handler.delete);
+const registerCrudRoutes = (prefix, handler, roles) => {
+  router.get(`/${prefix}`, authorize(...roles), handler.getAll);
+  router.post(`/${prefix}`, authorize(...roles), handler.create);
+  router.put(`/${prefix}/:id`, authorize(...roles), handler.update);
+  router.delete(`/${prefix}/:id`, authorize(...roles), handler.delete);
 };
 
-registerCrudRoutes('banners', bannersCrud);
-registerCrudRoutes('sections', sectionsCrud);
-registerCrudRoutes('products', productsCrud);
-registerCrudRoutes('categories', categoriesCrud);
-registerCrudRoutes('blogs', blogsCrud);
-registerCrudRoutes('faqs', faqsCrud);
-registerCrudRoutes('team', teamCrud);
-registerCrudRoutes('facilities', facilitiesCrud);
-registerCrudRoutes('certifications', certsCrud);
-registerCrudRoutes('videos', videosCrud);
-registerCrudRoutes('stats', statsCrud);
-registerCrudRoutes('enquiries', enquiriesCrud);
-registerCrudRoutes('users', usersCrud);
-registerCrudRoutes('media', mediaCrud);
+const contentRoles = ['superadmin', 'admin', 'editor'];
+registerCrudRoutes('banners', bannersCrud, contentRoles);
+registerCrudRoutes('sections', sectionsCrud, contentRoles);
+registerCrudRoutes('products', productsCrud, contentRoles);
+registerCrudRoutes('categories', categoriesCrud, contentRoles);
+registerCrudRoutes('blogs', blogsCrud, contentRoles);
+registerCrudRoutes('faqs', faqsCrud, contentRoles);
+registerCrudRoutes('team', teamCrud, contentRoles);
+registerCrudRoutes('facilities', facilitiesCrud, contentRoles);
+registerCrudRoutes('certifications', certsCrud, contentRoles);
+registerCrudRoutes('videos', videosCrud, contentRoles);
+registerCrudRoutes('stats', statsCrud, contentRoles);
+
+registerCrudRoutes('enquiries', enquiriesCrud, ['superadmin', 'admin']);
+registerCrudRoutes('media', mediaCrud, ['superadmin', 'admin']);
+registerCrudRoutes('users', usersCrud, ['superadmin']);
 
 export default router;
