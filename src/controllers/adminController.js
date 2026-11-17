@@ -124,7 +124,7 @@ const createCrudHandlers = (Model, name, fields = null) => ({
   },
 });
 
-const BANNER_FIELDS = ['eyebrow','title','subtitle','cta1Text','cta1Link','cta2Text','cta2Link','imageDesktop','imageMobile','order','active'];
+const BANNER_FIELDS = ['eyebrow','title','subtitle','badge','trustPoints','cta1Text','cta1Link','cta2Text','cta2Link','imageDesktop','imageMobile','order','active'];
 const SECTION_FIELDS = ['pageKey','key','name','type','title','subtitle','content','image','order','visible'];
 const PRODUCT_FIELDS = ['name','slug','dosageForm','healthCategory','categories','images','description','composition','benefits','packaging','moq','featured','status','seo'];
 const CATEGORY_FIELDS = ['name','slug','type','description','image','order','active'];
