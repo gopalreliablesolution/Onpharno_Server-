@@ -14,6 +14,14 @@ import adminRoutes from './routes/adminRoutes.js';
 
 dotenv.config();
 
+const requiredEnv = ['MONGO_URI', 'JWT_SECRET', 'JWT_REFRESH_SECRET'];
+for (const key of requiredEnv) {
+  if (!process.env[key]) {
+    console.error(`Missing required environment variable: ${key}`);
+    process.exit(1);
+  }
+}
+
 // Connect to Database
 connectDB();
 

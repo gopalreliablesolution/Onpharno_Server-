@@ -1,6 +1,9 @@
 import User from '../models/User.js';
 import jwt from 'jsonwebtoken';
-import { sendTokenResponse, generateAccessToken } from '../utils/token.js';
+import { sendTokenResponse, generateAccessToken, getCookieOptions } from '../utils/token.js';
+
+const MAX_LOGIN_ATTEMPTS = 5;
+const LOCK_TIME_MS = 15 * 60 * 1000;
 
 // @desc    Login Admin User
 // @route   POST /api/v1/auth/login
@@ -16,24 +19,42 @@ export const login = async (req, res, next) => {
       });
     }
 
-    const user = await User.findOne({ email: email.toLowerCase() }).select('+password');
+    const user = await User.findOne({ email: String(email).toLowerCase().trim() }).select('+password +loginAttempts +lockUntil +active');
 
     if (!user) {
       return res.status(401).json({
         success: false,
-        message: 'Invalid credentials. User not found.',
+        message: 'Invalid credentials.',
+      });
+    }
+
+    if (user.active === false) {
+      return res.status(403).json({ success: false, message: 'Account is inactive.' });
+    }
+
+    if (user.isLocked && user.isLocked()) {
+      return res.status(423).json({
+        success: false,
+        message: 'Account temporarily locked due to repeated failed attempts. Please try again later.',
       });
     }
 
     const isMatch = await user.matchPassword(password);
     if (!isMatch) {
+      user.loginAttempts = (user.loginAttempts || 0) + 1;
+      if (user.loginAttempts >= MAX_LOGIN_ATTEMPTS) {
+        user.lockUntil = new Date(Date.now() + LOCK_TIME_MS);
+        user.loginAttempts = 0;
+      }
+      await user.save({ validateBeforeSave: false });
       return res.status(401).json({
         success: false,
-        message: 'Invalid credentials. Password incorrect.',
+        message: 'Invalid credentials.',
       });
     }
 
-    // Update last login
+    user.loginAttempts = 0;
+    user.lockUntil = undefined;
     user.lastLogin = new Date();
     await user.save({ validateBeforeSave: false });
 
@@ -48,7 +69,7 @@ export const login = async (req, res, next) => {
 // @access  Private
 export const getMe = async (req, res, next) => {
   try {
-    const user = await User.findById(req.user.id);
+    const user = await User.findById(req.user.id).select('-password');
     res.status(200).json({
       success: true,
       data: user,
@@ -71,13 +92,12 @@ export const refreshToken = async (req, res, next) => {
       });
     }
 
-    const decoded = jwt.verify(
-      token,
-      process.env.JWT_REFRESH_SECRET || 'REDACTED_JWT_REFRESH_SECRET'
-    );
-    const user = await User.findById(decoded.id);
+    const secret = process.env.JWT_REFRESH_SECRET;
+    if (!secret) throw new Error('Missing JWT_REFRESH_SECRET');
+    const decoded = jwt.verify(token, secret);
+    const user = await User.findById(decoded.id).select('-password');
 
-    if (!user) {
+    if (!user || user.active === false) {
       return res.status(401).json({
         success: false,
         message: 'Invalid token. User not found.',
@@ -85,10 +105,11 @@ export const refreshToken = async (req, res, next) => {
     }
 
     const newAccessToken = generateAccessToken(user);
+    res.cookie('token', newAccessToken, getCookieOptions(15 * 60 * 1000));
     res.status(200).json({
       success: true,
       data: {
-        token: newAccessToken,
+        user: { id: user._id, name: user.name, email: user.email, role: user.role },
       },
     });
   } catch (error) {
@@ -103,10 +124,10 @@ export const refreshToken = async (req, res, next) => {
 // @route   POST /api/v1/auth/logout
 // @access  Public
 export const logout = async (req, res) => {
-  res.cookie('refreshToken', 'none', {
-    expires: new Date(Date.now() + 10 * 1000),
-    httpOnly: true,
-  });
+  const isProd = process.env.NODE_ENV === 'production';
+  const base = { httpOnly: true, secure: isProd, sameSite: isProd ? 'none' : 'lax', path: '/', expires: new Date(0) };
+  res.cookie('token', '', base);
+  res.cookie('refreshToken', '', base);
 
   res.status(200).json({
     success: true,
