@@ -124,8 +124,7 @@ export const refreshToken = async (req, res, next) => {
 // @route   POST /api/v1/auth/logout
 // @access  Public
 export const logout = async (req, res) => {
-  const isProd = process.env.NODE_ENV === 'production';
-  const base = { httpOnly: true, secure: isProd, sameSite: isProd ? 'none' : 'lax', path: '/', expires: new Date(0) };
+  const base = { ...getCookieOptions(0), maxAge: 0, expires: new Date(0) };
   res.cookie('token', '', base);
   res.cookie('refreshToken', '', base);
 

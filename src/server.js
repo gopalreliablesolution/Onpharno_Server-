@@ -11,6 +11,7 @@ import connectDB from './config/db.js';
 import authRoutes from './routes/authRoutes.js';
 import publicRoutes from './routes/publicRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
+import { csrfProtection } from './middleware/csrf.js';
 
 dotenv.config();
 
@@ -59,6 +60,7 @@ app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
 app.use(express.json({ limit: '20mb' }));
 app.use(express.urlencoded({ extended: true, limit: '20mb' }));
 app.use(cookieParser());
+app.use('/api/v1', csrfProtection);
 
 // Static uploads directory (Server-stored files - No external cloud lock-in)
 const uploadsDir = path.join(__dirname, '../uploads');
