@@ -166,6 +166,7 @@ const seedData = async () => {
     const blogs = [
       {
         title: 'Emerging Nutraceutical Trends',
+        coverImage: '/images/facility-highlights.jpg',
         excerpt: 'Global consumer demand is rapidly shifting towards preventive healthcare, clean-label plant capsules, and highly bioavailable delivery formats.',
         content: '<p>The global nutraceutical landscape is experiencing a paradigm shift. Today’s discerning consumers demand scientific verification, uncompromising quality, and delivery formats that fit seamlessly into modern daily lifestyles.</p><p>By prioritizing bioavailability and vegetarian encapsulation options, brands can establish sustained market leadership.</p>',
         author: 'ONPHARNO Scientific Team',
@@ -173,6 +174,7 @@ const seedData = async () => {
       },
       {
         title: 'Choosing the Right Dosage Form',
+        coverImage: '/images/format-capsules.jpg',
         excerpt: 'A comprehensive comparative analysis of liquid-filled hard capsules, tablets, and softgels for sensitive lipid and botanical actives.',
         content: '<p>Formulation scientists face a critical decision when choosing a dosage form. Lipid-based actives and hydrophobic ingredients require specialized carriers to prevent oxidation and optimize intestinal absorption.</p><p>Liquid-filled hard capsules provide distinct advantages in oxygen barrier properties and clean-label appeal.</p>',
         author: 'R&D Formulation Lead',
@@ -180,6 +182,7 @@ const seedData = async () => {
       },
       {
         title: 'Private Label vs Custom Formulation',
+        coverImage: '/images/packaging-development.jpg',
         excerpt: 'How to strategically navigate time-to-market versus proprietary formulation exclusivity when scaling your healthcare portfolio.',
         content: '<p>Evaluating the trade-offs between rapid market entry through turnkey validated formulations versus developing custom proprietary IP from the laboratory up.</p>',
         author: 'Business Development Team',
@@ -187,6 +190,7 @@ const seedData = async () => {
       },
       {
         title: 'How to Launch a Supplement Brand',
+        coverImage: '/images/customized-formulation.jpg',
         excerpt: 'A step-by-step roadmap for healthcare entrepreneurs: regulatory compliance, dosage format selection, and reliable supply chain alliances.',
         content: '<p>Launching a differentiated supplement brand requires meticulous alignment across formulation stability, label compliance, and cGMP commercial manufacturing.</p>',
         author: 'Regulatory Affairs Team',
@@ -194,6 +198,7 @@ const seedData = async () => {
       },
       {
         title: "Trends in Men's & Women's Health",
+        coverImage: '/images/cat-women.jpg',
         excerpt: 'Targeted micro-nutrition formulations addressing hormonal balance, vitality, bone density, and healthy ageing across life stages.',
         content: '<p>Gender-specific nutrition continues to expand as clinical research illuminates distinct micronutrient synergies for metabolic and hormonal wellness.</p>',
         author: 'Nutritional Science Advisory',
@@ -201,6 +206,7 @@ const seedData = async () => {
       },
       {
         title: 'The Future of Effervescent Supplements',
+        coverImage: '/images/format-effervescent.jpg',
         excerpt: 'Why effervescent tablets are dominating sports hydration and immunity categories through instantaneous dissolution and rapid gastric transit.',
         content: '<p>Effervescent dosage forms offer superior patient compliance, palatable flavor profiles, and rapid active absorption compared to bulky conventional tablets.</p>',
         author: 'Formulation R&D',
@@ -208,6 +214,7 @@ const seedData = async () => {
       },
       {
         title: 'Bioavailability and Modern Formulation',
+        coverImage: '/images/scientist-pharmacist.png',
         excerpt: 'Overcoming the absorption barrier for poorly soluble herbal extracts and vitamins through self-emulsifying lipid formulation technologies.',
         content: '<p>Solubility and intestinal permeability determine therapeutic efficacy. Advanced lipid carrier systems bridge the gap between active potency and cellular delivery.</p>',
         author: 'Lead Research Scientist',
@@ -215,6 +222,7 @@ const seedData = async () => {
       },
       {
         title: 'Building an Export-Ready Healthcare Product',
+        coverImage: '/images/export-cargo.jpg',
         excerpt: 'Essential regulatory guidelines, CTD dossier preparation, stability testing, and documentation required for seamless international market entry.',
         content: '<p>Navigating cross-border pharmaceutical and nutraceutical regulations demands comprehensive batch records, ICH stability protocols, and robust quality documentation.</p>',
         author: 'International Business Lead',

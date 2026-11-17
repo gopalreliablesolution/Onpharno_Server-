@@ -22,7 +22,7 @@ const blogSchema = new mongoose.Schema(
     },
     coverImage: {
       type: String,
-      default: '/uploads/logo.png',
+      default: '/images/facility-highlights.jpg',
     },
     category: {
       type: String,
