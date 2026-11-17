@@ -47,34 +47,34 @@ const seedData = async () => {
     });
     console.log(`✅ Admin created: ${adminEmail}`);
 
-    console.log('🏷️ Seeding Categories & Dosage Forms...');
+    console.log('🏷️ Seeding Real Therapeutic Classes & Dosage Forms (SevenQ structure)...');
     const healthCategories = [
-      'Daily Wellness',
-      "Men's Health",
-      "Women's Health",
-      'Beauty Nutrition',
-      'Sports Nutrition',
-      'Healthy Ageing',
-      'Gut Health',
-      'Immunity',
-      'Bone & Joint',
-      'Brain Health',
-      'Sleep & Stress',
-      'Specialized Nutrition',
+      'Multivitamins Supplement',
+      'Women Supplement',
+      'Kids Supplement',
+      'Ortho Supplement',
+      'Brain Memory and Neuro Supplement',
+      'Stress Relief & Sleep Supplement',
+      'Digestive & Probiotic Supplement',
+      'Hair Skin and Nail Supplement',
+      'Weight Loss Supplement',
+      'Heart Supplement',
+      'Eye Liver Kidney Supplement',
+      'Energy & Gym Supplement',
     ];
 
     const dosageForms = [
       'Liquid-Filled Hard Capsules',
       'Capsule-in-Capsule',
       'Pellets-in-Capsule',
+      'Gummies',
+      'Effervescent Tablets',
+      'Soft Gel Capsules',
       'Tablets',
       'Capsules',
-      'Softgels',
-      'Effervescent',
-      'Sachets & Powders',
-      'Gummies',
-      'Liquids & Syrups',
+      'Syrups & Liquids',
       'Oral Shots',
+      'Sachets & Powders',
     ];
 
     const categoryDocs = [];
@@ -111,43 +111,43 @@ const seedData = async () => {
         order: 1,
       },
       {
-        eyebrow: 'SCIENCE-LED HEALTHCARE SOLUTIONS',
-        title: 'Your Partner for Healthcare Product Innovation.',
-        subtitle: 'From initial therapeutic concept to commercial cGMP manufacturing and global export.',
-        cta1Text: 'Explore ONPHARNO →',
-        cta1Link: '/about/our-story',
-        cta2Text: 'Partner With Us →',
-        cta2Link: '/partner/global-partnerships',
+        eyebrow: 'YOUR PRIVATE LABEL PARTNER',
+        title: 'From Formulation to Packaging, Complete B2B Manufacturing Solutions.',
+        subtitle: 'FSSAI, WHO-GMP & ISO certified state-of-the-art facility delivering custom and ready formulations.',
+        cta1Text: 'Explore Products →',
+        cta1Link: '/products',
+        cta2Text: 'Get in Touch →',
+        cta2Link: '/contact',
         order: 2,
       },
       {
-        eyebrow: 'PRIVATE LABEL SOLUTIONS',
-        title: 'Your Brand. Our Product & Manufacturing Expertise.',
-        subtitle: 'Ready-to-launch validated formulations in premium advanced delivery formats.',
-        cta1Text: 'Explore Private Label →',
-        cta1Link: '/products',
-        cta2Text: 'Contact Our Team →',
-        cta2Link: '/contact',
+        eyebrow: 'CERTIFIED QUALITY YOU CAN TRUST',
+        title: 'End-to-End Turnkey Nutraceutical & Pharmaceutical Capabilities.',
+        subtitle: 'High-speed automated encapsulation, tableting, gummy molding, effervescent compression & bottling.',
+        cta1Text: 'View Facilities →',
+        cta1Link: '/about/facilities',
+        cta2Text: 'Quality Policy →',
+        cta2Link: '/about/quality',
         order: 3,
+      },
+      {
+        eyebrow: 'GLOBAL EXPORT EXCELLENCE',
+        title: 'Serving Healthcare Brands Across 15+ Countries Worldwide.',
+        subtitle: 'Complete export documentation, CTD dossier support, certificates of analysis, and regulatory registration.',
+        cta1Text: 'Explore Global Alliances →',
+        cta1Link: '/partner/global-partnerships',
+        cta2Text: 'Start Your Journey →',
+        cta2Link: '/contact',
+        order: 4,
       },
       {
         eyebrow: 'CUSTOM PRODUCT DEVELOPMENT',
         title: "Have an Idea? Let's Build the Right Product Around It.",
-        subtitle: 'Full-spectrum formulation R&D, stability testing, and pilot clinical batch execution.',
-        cta1Text: 'Start Your Product Journey →',
+        subtitle: 'Pilot lab trials, lipid bioenhancement, stability testing, and turnkey packaging development.',
+        cta1Text: 'Consult Formulation Team →',
         cta1Link: '/contact',
-        cta2Text: 'View Capabilities →',
-        cta2Link: '/capabilities/product-development',
-        order: 4,
-      },
-      {
-        eyebrow: 'GLOBAL PARTNERSHIPS',
-        title: 'Building Healthcare Partnerships Beyond Borders.',
-        subtitle: 'Trusted contract manufacturing and CTD dossier registration support across 10+ countries.',
-        cta1Text: 'Explore Global Partnerships →',
-        cta1Link: '/partner/global-partnerships',
-        cta2Text: 'Start a Project →',
-        cta2Link: '/contact',
+        cta2Text: 'Explore Dosage Forms →',
+        cta2Link: '/products/by-dosage-form',
         order: 5,
       },
     ];
@@ -156,13 +156,13 @@ const seedData = async () => {
     console.log('📈 Seeding Stats & Counters...');
     const stats = [
       { label: 'Products & Formulations', value: '500', suffix: '+', order: 1 },
-      { label: 'Business Partners', value: '20', suffix: '+', order: 2 },
-      { label: 'Countries Served', value: '10', suffix: '+', order: 3 },
-      { label: 'Years of Experience', value: '12', suffix: '+', order: 4 },
+      { label: 'Countries Served', value: '15', suffix: '+', order: 2 },
+      { label: 'Dosage Formats', value: '11', suffix: '+', order: 3 },
+      { label: 'Years of Excellence', value: '17', suffix: '+', order: 4 },
     ];
     await Stat.insertMany(stats);
 
-    console.log('📝 Seeding Blogs (8 required articles)...');
+    console.log('📝 Seeding Blogs...');
     const blogs = [
       {
         title: 'Emerging Nutraceutical Trends',
@@ -221,204 +221,697 @@ const seedData = async () => {
         readTime: '8 min read',
       },
     ];
-    const blogsWithSlugs = blogs.map(b => ({
+    const blogsWithSlugs = blogs.map((b) => ({
       ...b,
-      slug: b.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+      slug: b.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
     }));
     await Blog.insertMany(blogsWithSlugs);
 
-    console.log('💊 Seeding 12 Sample Products...');
-    const products = [
+    console.log('💊 Seeding Real Products (from SevenQ Catalog + Signature Formats)...');
+    const realProducts = [
       {
-        name: 'CoQ10 100mg + Omega-3 Liquid-Filled Hard Capsule',
-        dosageForm: 'Liquid-Filled Hard Capsules',
-        healthCategory: 'Healthy Ageing',
-        description: 'Advanced dual antioxidant lipid matrix in hermetically sealed vegetarian HPMC capsule for maximum cellular absorption.',
-        composition: [
-          { ingredient: 'Coenzyme Q10 (Ubiquinone)', strength: '100 mg', purpose: 'Mitochondrial Energy & Cellular Protection' },
-          { ingredient: 'Omega-3 EPA/DHA Fish Oil Complex', strength: '500 mg', purpose: 'Cardiovascular Support & Lipid Matrix' },
-          { ingredient: 'Sunflower Lecithin (Phospholipids)', strength: '20 mg', purpose: 'Emulsifying Agent' },
-        ],
-        benefits: [
-          'Superior bioavailability compared to dry powdered CoQ10',
-          'Tamper-evident band sealing eliminates leakages & off-odors',
-          'Clean label: Free from artificial plasticizers and preservatives',
-        ],
-        packaging: 'Alu-Alu Blister (10x10), 60 Capsules Amber Bottle',
-        moq: '50,000 Capsules',
-        featured: true,
+            "name": "MULTIVITAMIN GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Multivitamins Supplement",
+            "description": "Essential daily micronutrient blend with Vitamins A, C, D3, E, B-Complex, and Zinc in pectin-based strawberry chewable gummies.",
+            "images": [
+                  "/uploads/products/multivitamin-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Vitamin C (Ascorbic Acid)",
+                        "strength": "40 mg",
+                        "purpose": "Immunity Support"
+                  },
+                  {
+                        "ingredient": "Vitamin B12",
+                        "strength": "2.5 mcg",
+                        "purpose": "Energy Metabolism"
+                  },
+                  {
+                        "ingredient": "Vitamin D3",
+                        "strength": "400 IU",
+                        "purpose": "Bone & Cellular Function"
+                  },
+                  {
+                        "ingredient": "Zinc Citrate",
+                        "strength": "5 mg",
+                        "purpose": "Cellular Defense"
+                  }
+            ],
+            "benefits": [
+                  "100% Pectin-based vegan gummy",
+                  "No artificial sweeteners or gelatin",
+                  "Supports daily energy and immune resilience"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies) with Child-Resistant Cap",
+            "featured": true
       },
       {
-        name: 'Probiotic + Prebiotic Dual Phase Capsule-in-Capsule',
-        dosageForm: 'Capsule-in-Capsule',
-        healthCategory: 'Gut Health',
-        description: 'Dual-phase formulation delivering live spore-forming probiotics in an inner enteric capsule surrounded by liquid botanical prebiotics.',
-        composition: [
-          { ingredient: 'Bacillus Coagulans & Subtilis (10 Billion CFU)', strength: '10 Billion CFU', purpose: 'Targeted Intestinal Flora' },
-          { ingredient: 'Organic Fructooligosaccharides (FOS) Liquid', strength: '350 mg', purpose: 'Prebiotic Nutrient Matrix' },
-        ],
-        benefits: [
-          'Protects live microorganisms from destructive stomach acid',
-          'Dual visual contrast showcasing premium multi-phase technology',
-          'Ambient room temperature stability without refrigeration',
-        ],
-        packaging: 'Dessicant-lined HDPE Bottle (30 capsules)',
-        moq: '50,000 Capsules',
-        featured: true,
+            "name": "MELATONIN GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Stress Relief & Sleep Supplement",
+            "description": "Natural sleep aid gummy formulated with pure Melatonin 5mg, L-Theanine, and Chamomile flower extract for restful, restorative sleep cycles.",
+            "images": [
+                  "/uploads/products/melatonin-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Melatonin",
+                        "strength": "5 mg",
+                        "purpose": "Circadian Sleep Modulation"
+                  },
+                  {
+                        "ingredient": "L-Theanine",
+                        "strength": "50 mg",
+                        "purpose": "Alpha-wave Relaxation"
+                  },
+                  {
+                        "ingredient": "Chamomile Extract",
+                        "strength": "25 mg",
+                        "purpose": "Herbal Calming"
+                  }
+            ],
+            "benefits": [
+                  "Accelerates sleep onset naturally",
+                  "Non-habit forming with zero morning fog",
+                  "Berry flavor chewable"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "Amber PET Jar (30/60 gummies)",
+            "featured": true
       },
       {
-        name: 'Curcumin 95% + Piperine Liquid-Filled Capsule',
-        dosageForm: 'Liquid-Filled Hard Capsules',
-        healthCategory: 'Bone & Joint',
-        description: 'Standardized 95% Curcuminoids solubilized in medium-chain triglycerides (MCT) with black pepper bio-enhancer.',
-        composition: [
-          { ingredient: 'Curcuma Longa Extract (95% Curcuminoids)', strength: '250 mg', purpose: 'Anti-inflammatory Active' },
-          { ingredient: 'BioPerine (Piperine 95%)', strength: '5 mg', purpose: 'Bioavailability Enhancer (20x increase)' },
-          { ingredient: 'Pure Fractionated Coconut Oil (MCT)', strength: '200 mg', purpose: 'Lipid Solubilizer' },
-        ],
-        benefits: [
-          'Up to 2,000% higher bioavailability than standard curcumin powder',
-          'Protects sensitive active from light and air degradation',
-        ],
-        packaging: 'Alu-Alu Blister Pack',
-        moq: '50,000 Capsules',
-        featured: true,
+            "name": "SKIN GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Hair Skin and Nail Supplement",
+            "description": "Advanced dermal rejuvenation gummy featuring L-Glutathione, Hyaluronic Acid, and Vitamin C for skin hydration, glow, and elasticity.",
+            "images": [
+                  "/uploads/products/skin-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "L-Glutathione (Reduced)",
+                        "strength": "100 mg",
+                        "purpose": "Skin Brightening & Free Radical Defense"
+                  },
+                  {
+                        "ingredient": "Hyaluronic Acid",
+                        "strength": "50 mg",
+                        "purpose": "Deep Dermal Hydration"
+                  },
+                  {
+                        "ingredient": "Vitamin C",
+                        "strength": "40 mg",
+                        "purpose": "Collagen Synthesis"
+                  }
+            ],
+            "benefits": [
+                  "Improves skin luminosity and tone",
+                  "Enhances dermal moisture retention",
+                  "Clinically validated oral beauty formula"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "Clear Square Jar (60 gummies)",
+            "featured": true
       },
       {
-        name: 'Dual Action Melatonin + Ashwagandha Pellets-in-Capsule',
-        dosageForm: 'Pellets-in-Capsule',
-        healthCategory: 'Sleep & Stress',
-        description: 'Instant-release melatonin micro-pellets combined with sustained-release KSM-66 Ashwagandha pellets for all-night sleep architecture.',
-        composition: [
-          { ingredient: 'Melatonin (Immediate Release Pellets)', strength: '3 mg', purpose: 'Rapid Sleep Onset' },
-          { ingredient: 'KSM-66 Ashwagandha (Sustained Release Pellets)', strength: '300 mg', purpose: 'Cortisol Modulation & Deep Rest' },
-        ],
-        benefits: [
-          'Immediate calming action followed by sustained 6-hour adaptogenic release',
-          'Elegant multi-color pellet aesthetic inside clear HPMC capsule',
-        ],
-        packaging: 'Amber Glass Bottle with Induction Seal (60 caps)',
-        moq: '50,000 Capsules',
-        featured: true,
+            "name": "HAIR GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Hair Skin and Nail Supplement",
+            "description": "Clinically designed hair and nail nutrient gummy with high-potency Biotin 10,000 mcg, Folic Acid, and Zinc to strengthen roots and stop breakage.",
+            "images": [
+                  "/uploads/products/hair-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Biotin (Vitamin B7)",
+                        "strength": "10,000 mcg",
+                        "purpose": "Keratin Follicle Strength"
+                  },
+                  {
+                        "ingredient": "Zinc Bisglycinate",
+                        "strength": "7.5 mg",
+                        "purpose": "Cellular Hair Repair"
+                  },
+                  {
+                        "ingredient": "Folic Acid",
+                        "strength": "400 mcg",
+                        "purpose": "Erythrocyte Production"
+                  }
+            ],
+            "benefits": [
+                  "Reduces hair shedding and stimulates growth",
+                  "Strengthens brittle, splitting nails",
+                  "Delicious fruit berry flavor"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies)",
+            "featured": true
       },
       {
-        name: 'Liposomal Vitamin C 1000mg + Zinc Effervescent Tablets',
-        dosageForm: 'Effervescent',
-        healthCategory: 'Immunity',
-        description: 'Fast-dissolving effervescent immunity formulation with high cellular bioavailability and refreshing natural orange flavor.',
-        composition: [
-          { ingredient: 'Liposomal Vitamin C (Ascorbic Acid)', strength: '1000 mg', purpose: 'Cellular Immune Defense' },
-          { ingredient: 'Zinc Bisglycinate Chelate', strength: '15 mg', purpose: 'High Absorption Mineral' },
-        ],
-        benefits: [
-          'Instant 100% dissolution with zero chalky residue',
-          'Gentle on the stomach lining compared to acidic pills',
-        ],
-        packaging: 'Moisture-tight Polypropylene Tube (20 tablets)',
-        moq: '10,000 Tubes',
-        featured: true,
+            "name": "ACV APPLE CIDER VINEGAR GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Weight Loss Supplement",
+            "description": "Raw, unfiltered Apple Cider Vinegar with the Mother (500mg) and Vitamin B12 to support digestion, appetite control, and metabolic balance.",
+            "images": [
+                  "/uploads/products/acv-apple-cider-vinegar-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Raw Apple Cider Vinegar (with the Mother)",
+                        "strength": "500 mg",
+                        "purpose": "Metabolic & Glycemic Balance"
+                  },
+                  {
+                        "ingredient": "Ginger Root Extract",
+                        "strength": "10 mg",
+                        "purpose": "Gastric Soothing"
+                  },
+                  {
+                        "ingredient": "Vitamin B12",
+                        "strength": "2.4 mcg",
+                        "purpose": "Lipid & Carbohydrate Metabolism"
+                  }
+            ],
+            "benefits": [
+                  "All benefits of liquid ACV without tooth enamel damage",
+                  "Aids healthy weight management and digestion"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies)",
+            "featured": true
       },
       {
-        name: 'Hydrolyzed Marine Collagen 5000mg Beauty Oral Shot',
-        dosageForm: 'Oral Shots',
-        healthCategory: 'Beauty Nutrition',
-        description: 'Ready-to-drink 25ml beauty vial containing low molecular weight Type I & III collagen peptides, biotin, and hyaluronic acid.',
-        composition: [
-          { ingredient: 'Hydrolyzed Marine Collagen Peptides (2000 Da)', strength: '5000 mg', purpose: 'Dermal Density & Elasticity' },
-          { ingredient: 'Sodium Hyaluronate', strength: '50 mg', purpose: 'Deep Skin Hydration' },
-          { ingredient: 'Biotin (Vitamin B7)', strength: '2500 mcg', purpose: 'Keratin Synthesis' },
-        ],
-        benefits: [
-          'Delicious mixed berry flavor with zero fishy aftertaste',
-          'Clinical peptide size for rapid gastrointestinal absorption',
-        ],
-        packaging: 'Sterile 25ml Amber PET Vials (Pack of 10 or 30)',
-        moq: '25,000 Vials',
-        featured: true,
+            "name": "CREATINE GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Energy & Gym Supplement",
+            "description": "Ultra-convenient athletic workout gummies delivering 3000mg micronized Creatine Monohydrate for muscle ATP explosive power and lean mass growth.",
+            "images": [
+                  "/uploads/products/creatine-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Micronized Creatine Monohydrate",
+                        "strength": "3000 mg",
+                        "purpose": "Muscle Phosphocreatine Stores"
+                  },
+                  {
+                        "ingredient": "Dextrose Transport Matrix",
+                        "strength": "500 mg",
+                        "purpose": "Accelerated Muscle Uptake"
+                  }
+            ],
+            "benefits": [
+                  "No messy powder shakers or water needed",
+                  "Boosts maximum power output and recovery speed"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "Matte Black Jar (90 gummies)",
+            "featured": true
       },
       {
-        name: 'Saw Palmetto + Pumpkin Seed Oil Liquid-Filled Capsule',
-        dosageForm: 'Liquid-Filled Hard Capsules',
-        healthCategory: "Men's Health",
-        description: 'Standardized fatty acids lipid blend dedicated to prostate health, bladder comfort, and healthy testosterone metabolism.',
-        composition: [
-          { ingredient: 'Saw Palmetto Berry CO2 Extract (85-95% Fatty Acids)', strength: '320 mg', purpose: '5-Alpha Reductase Inhibition' },
-          { ingredient: 'Cold Pressed Virgin Pumpkin Seed Oil', strength: '160 mg', purpose: 'Zinc & Phytosterol Source' },
-        ],
-        benefits: ['Gold standard once-daily clinical dosage format', 'Hermetically banded to seal volatile aroma'],
-        packaging: 'Blister Pack (3x10)',
-        moq: '50,000 Capsules',
+            "name": "MAGNESIUM GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Stress Relief & Sleep Supplement",
+            "description": "High-absorption Magnesium Glycinate gummy for musculoskeletal relaxation, nervous system calming, and nocturnal cramp relief.",
+            "images": [
+                  "/uploads/products/magnesium-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Elemental Magnesium (as Bisglycinate)",
+                        "strength": "200 mg",
+                        "purpose": "Neuromuscular Relaxation"
+                  },
+                  {
+                        "ingredient": "Vitamin B6",
+                        "strength": "2 mg",
+                        "purpose": "GABA Synthesis"
+                  }
+            ],
+            "benefits": [
+                  "Gentle on digestion with zero laxative effect",
+                  "Eases physical muscle tightness and mental tension"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies)"
       },
       {
-        name: 'Evening Primrose 1000mg + Vitamin E Liquid Capsule',
-        dosageForm: 'Liquid-Filled Hard Capsules',
-        healthCategory: "Women's Health",
-        description: 'Cold-pressed Evening Primrose Oil providing standardized 10% Gamma-Linolenic Acid (GLA) for hormonal harmony.',
-        composition: [
-          { ingredient: 'Evening Primrose Oil (10% GLA)', strength: '1000 mg', purpose: 'Hormonal & Skin Barrier Balance' },
-          { ingredient: 'Natural Vitamin E (d-alpha tocopherol)', strength: '15 IU', purpose: 'Antioxidant Stabilizer' },
-        ],
-        benefits: ['100% Plant HPMC shell option available', 'Zero degradation from excessive manufacturing heat'],
-        packaging: 'HDPE Bottle (60 caps)',
-        moq: '50,000 Capsules',
+            "name": "ASHWAGANDHA GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Stress Relief & Sleep Supplement",
+            "description": "Clinically proven full-spectrum KSM-66 Ashwagandha extract in chewable gummies for stress management, cortisol balance, and vitality.",
+            "images": [
+                  "/uploads/products/ashwagandha-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "KSM-66 Ashwagandha Root Extract (5% Withanolides)",
+                        "strength": "300 mg",
+                        "purpose": "Adaptogen & Stress Control"
+                  },
+                  {
+                        "ingredient": "Vitamin D2",
+                        "strength": "400 IU",
+                        "purpose": "Immunity Support"
+                  }
+            ],
+            "benefits": [
+                  "Lowers stress and cortisol markers",
+                  "Improves endurance, mental focus, and sexual stamina"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies)"
       },
       {
-        name: 'Electrolyte Hydration + B-Complex Drink Mix Sachet',
-        dosageForm: 'Sachets & Powders',
-        healthCategory: 'Sports Nutrition',
-        description: 'Scientific hypotonic osmolality electrolyte powder for rapid cellular hydration and athletic endurance.',
-        composition: [
-          { ingredient: 'Sodium & Potassium Citrate Complex', strength: '800 mg', purpose: 'Electrolyte Replenishment' },
-          { ingredient: 'Aquamin Magnesium (Marine-derived)', strength: '100 mg', purpose: 'Muscle Function & Cramp Defense' },
-        ],
-        benefits: ['Rapid dissolution in cold water', 'Naturally sweetened with zero artificial dyes'],
-        packaging: 'Foil Sachet (Box of 30 sachets)',
-        moq: '25,000 Sachets',
+            "name": "SHILAJIT GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Energy & Gym Supplement",
+            "description": "Purified Himalayan Shilajit with 60% Fulvic Acid and ionic minerals in a delicious gummy that eliminates raw shilajit bitterness.",
+            "images": [
+                  "/uploads/products/shilajit-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Purified Himalayan Shilajit Extract (60% Fulvic Acid)",
+                        "strength": "250 mg",
+                        "purpose": "Cellular Bio-vitality & Testosterone"
+                  },
+                  {
+                        "ingredient": "Safed Musli Root Extract",
+                        "strength": "50 mg",
+                        "purpose": "Physical Endurance"
+                  }
+            ],
+            "benefits": [
+                  "Enhances natural stamina and energy without crashes",
+                  "Palatable formulation for modern consumers"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "Black Jar (60 gummies)"
       },
       {
-        name: 'Nootropic Brain Focus + Phosphatidylserine Capsule',
-        dosageForm: 'Capsule-in-Capsule',
-        healthCategory: 'Brain Health',
-        description: 'Cognitive formula featuring inner Lion’s Mane extract capsule suspended in pure liquid Phosphatidylserine.',
-        composition: [
-          { ingredient: 'Lion’s Mane Dual Extract (30% Polysaccharides)', strength: '300 mg', purpose: 'NGF Neuro-regeneration' },
-          { ingredient: 'Phosphatidylserine (Soy-free liquid matrix)', strength: '100 mg', purpose: 'Neuronal Membrane Support' },
-        ],
-        benefits: ['Synergistic dual-phase brain formula', 'High market differentiation in nootropic categories'],
-        packaging: 'Glass Bottle (60 caps)',
-        moq: '50,000 Capsules',
+            "name": "EYE GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Eye Liver Kidney Supplement",
+            "description": "Digital blue light protection gummy packed with free-form Lutein 20mg, Zeaxanthin 4mg, and Bilberry extract for retina health.",
+            "images": [
+                  "/uploads/products/eye-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Lutein (from Marigold Extract)",
+                        "strength": "20 mg",
+                        "purpose": "Macular Optical Pigment"
+                  },
+                  {
+                        "ingredient": "Zeaxanthin Isomers",
+                        "strength": "4 mg",
+                        "purpose": "Foveal Photoprotection"
+                  },
+                  {
+                        "ingredient": "Bilberry Extract",
+                        "strength": "25 mg",
+                        "purpose": "Microvascular Tone"
+                  }
+            ],
+            "benefits": [
+                  "Relieves screen fatigue, dryness, and glare strain",
+                  "Protects central macular vision"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies)"
       },
       {
-        name: 'Apple Cider Vinegar + Mother Pectin Gummies',
-        dosageForm: 'Gummies',
-        healthCategory: 'Daily Wellness',
-        description: 'Delicious unfiltered Apple Cider Vinegar gummies with ginger root extract and vitamin B12 for metabolic vitality.',
-        composition: [
-          { ingredient: 'Raw Apple Cider Vinegar (with the Mother)', strength: '500 mg', purpose: 'Metabolic Support' },
-          { ingredient: 'Vitamin B12 (Methylcobalamin)', strength: '2.4 mcg', purpose: 'Energy Metabolism' },
-        ],
-        benefits: ['100% Pectin-based (Gelatin-free, vegan)', 'Pleasant natural apple taste without throat irritation'],
-        packaging: 'PET Jar (60 gummies)',
-        moq: '15,000 Jars',
+            "name": "PROBIOTIC GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Digestive & Probiotic Supplement",
+            "description": "Stable spore-based Bacillus Coagulans (2 Billion CFU) with chicory inulin prebiotic fiber to maintain balanced intestinal flora.",
+            "images": [
+                  "/uploads/products/probiotic-gummies-gut-heath-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Bacillus Coagulans Spores",
+                        "strength": "2 Billion CFU",
+                        "purpose": "Gut Flora Colonization"
+                  },
+                  {
+                        "ingredient": "Inulin (Chicory Prebiotic)",
+                        "strength": "200 mg",
+                        "purpose": "Microbial Nourishment"
+                  }
+            ],
+            "benefits": [
+                  "100% shelf stable without refrigeration",
+                  "Relieves occasional gas, bloating, and irregular transit"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "Desiccant Sealed Jar (60 gummies)"
       },
       {
-        name: 'Glucosamine + Chondroitin + MSM Coated Bilayer Tablets',
-        dosageForm: 'Tablets',
-        healthCategory: 'Bone & Joint',
-        description: 'High-potency triple action joint cartilage regeneration tablets with enteric protection.',
-        composition: [
-          { ingredient: 'Glucosamine Sulfate 2KCl', strength: '750 mg', purpose: 'Cartilage Building Block' },
-          { ingredient: 'Chondroitin Sulfate Sodium', strength: '400 mg', purpose: 'Synovial Fluid Cushioning' },
-          { ingredient: 'OptiMSM (Methylsulfonylmethane)', strength: '250 mg', purpose: 'Connective Tissue Support' },
-        ],
-        benefits: ['Bilayer compression for maximum stability', 'Smooth film coating for effortless swallowability'],
-        packaging: 'HDPE Bottle (90 tablets)',
-        moq: '50,000 Tablets',
+            "name": "CHYAWANPRASH GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Kids Supplement",
+            "description": "Traditional 40-herb Ayurvedic immunity formula transformed into delicious child-friendly chewable pectin gummies for cough and cold protection.",
+            "images": [
+                  "/uploads/products/chyawanprash-gummies-cough-and-cold-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Fresh Amla Puree (Natural Vitamin C)",
+                        "strength": "500 mg",
+                        "purpose": "Immune Defense"
+                  },
+                  {
+                        "ingredient": "Classic 40-Herb Decoction Complex",
+                        "strength": "250 mg",
+                        "purpose": "Respiratory Resilience"
+                  }
+            ],
+            "benefits": [
+                  "Zero mess alternative to sticky herbal jams",
+                  "Loved by children and adults alike"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies)"
       },
-    ];
-    const productsWithSlugs = products.map(p => ({
+      {
+            "name": "IMMUNITY GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Multivitamins Supplement",
+            "description": "Triple defense immunity shield gummy combining Black Elderberry (Sambucus nigra), high-dose Vitamin C, and Zinc Bisglycinate.",
+            "images": [
+                  "/uploads/products/immunity-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Sambucus Black Elderberry Extract",
+                        "strength": "100 mg",
+                        "purpose": "Antiviral Flavonoids"
+                  },
+                  {
+                        "ingredient": "Vitamin C (Ascorbic Acid)",
+                        "strength": "60 mg",
+                        "purpose": "Cellular Immunity"
+                  },
+                  {
+                        "ingredient": "Zinc Bisglycinate",
+                        "strength": "5 mg",
+                        "purpose": "T-Cell Activation"
+                  }
+            ],
+            "benefits": [
+                  "Fast-acting seasonal immune fortification",
+                  "Rich natural elderberry taste"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies)"
+      },
+      {
+            "name": "IRON GUMMIES FOR WOMEN",
+            "dosageForm": "Gummies",
+            "healthCategory": "Women Supplement",
+            "description": "Gentle, non-constipating Ferrous Bisglycinate iron gummy with Vitamin C, Folic Acid, and B12 for red blood cells and women's daily energy.",
+            "images": [
+                  "/uploads/products/iron-gummies-for-women.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Elemental Iron (Ferrous Bisglycinate)",
+                        "strength": "18 mg",
+                        "purpose": "Hemoglobin Synthesis"
+                  },
+                  {
+                        "ingredient": "Vitamin C",
+                        "strength": "30 mg",
+                        "purpose": "Iron Uptake Catalyst"
+                  },
+                  {
+                        "ingredient": "Folic Acid",
+                        "strength": "400 mcg",
+                        "purpose": "Red Blood Cell Health"
+                  }
+            ],
+            "benefits": [
+                  "No metallic taste, nausea, or digestive binding",
+                  "Ideal for prenatal and reproductive female wellness"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies)"
+      },
+      {
+            "name": "FIBER GUMMIES",
+            "dosageForm": "Gummies",
+            "healthCategory": "Digestive & Probiotic Supplement",
+            "description": "Prebiotic dietary fiber gummies delivering 3 grams of soluble inulin fiber per serving to nourish gut microbiome and support digestive regularity.",
+            "images": [
+                  "/uploads/products/fiber-gummies.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Soluble Chicory Inulin Prebiotic Fiber",
+                        "strength": "3000 mg",
+                        "purpose": "Stool Regularity & Microbiome Food"
+                  }
+            ],
+            "benefits": [
+                  "Promotes comfortable daily bowel movements",
+                  "Natural orange, peach, and berry mixed flavors"
+            ],
+            "moq": "15,000 Jars",
+            "packaging": "PET Jar (60 gummies)"
+      },
+      {
+            "name": "MULTIVITAMIN TABLETS",
+            "dosageForm": "Tablets",
+            "healthCategory": "Multivitamins Supplement",
+            "description": "Comprehensive once-daily coated multivitamin tablet containing 24 essential vitamins, chelated minerals, and ginseng antioxidants.",
+            "images": [
+                  "/uploads/products/multivitamin-tablets.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "24 Vitamin & Mineral Complete Complex",
+                        "strength": "100% RDA",
+                        "purpose": "Full Body Nutrition"
+                  },
+                  {
+                        "ingredient": "Korean Panax Ginseng Extract",
+                        "strength": "50 mg",
+                        "purpose": "Physical & Mental Stamina"
+                  }
+            ],
+            "benefits": [
+                  "Film-coated for easy swallowing with no odor",
+                  "Cost-effective, high-volume private label formula"
+            ],
+            "moq": "50,000 Tablets",
+            "packaging": "Blister (10x10) or HDPE Bottle (60 tabs)"
+      },
+      {
+            "name": "COENZYME Q10 TABLETS",
+            "dosageForm": "Tablets",
+            "healthCategory": "Heart Supplement",
+            "description": "Potent heart and vascular tablet with CoQ10 100mg, L-Carnitine, Lycopene, and Zinc for cardiovascular cellular vitality.",
+            "images": [
+                  "/uploads/products/coenzyme-q10-tablets.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Coenzyme Q10 (Ubiquinone)",
+                        "strength": "100 mg",
+                        "purpose": "Cardiac ATP Production"
+                  },
+                  {
+                        "ingredient": "L-Carnitine L-Tartrate",
+                        "strength": "250 mg",
+                        "purpose": "Fatty Acid Transport"
+                  }
+            ],
+            "benefits": [
+                  "Promotes healthy blood pressure and endothelial function",
+                  "Statin-induced CoQ10 depletion replenishment"
+            ],
+            "moq": "50,000 Tablets",
+            "packaging": "Alu-Alu Blister Pack"
+      },
+      {
+            "name": "APPLE CIDER VINEGAR EFFERVESCENT TABLET",
+            "dosageForm": "Effervescent Tablets",
+            "healthCategory": "Weight Loss Supplement",
+            "description": "Sparkling instant effervescent tablet with 500mg raw Apple Cider Vinegar, pomegranate extract, and Vitamin B6/B12 for crisp, refreshing weight control.",
+            "images": [
+                  "/uploads/products/apple-cider-vinegar-effervescent-tablet.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Apple Cider Vinegar Extract",
+                        "strength": "500 mg",
+                        "purpose": "Glycemic & Metabolic Support"
+                  },
+                  {
+                        "ingredient": "Pomegranate Extract",
+                        "strength": "100 mg",
+                        "purpose": "Antioxidant Polyphenols"
+                  }
+            ],
+            "benefits": [
+                  "Delicious fizzy green apple drink",
+                  "Dissolves in 45 seconds with zero residue"
+            ],
+            "moq": "10,000 Tubes",
+            "packaging": "Moisture-Tight Aluminum Tube (20 tablets)",
+            "featured": true
+      },
+      {
+            "name": "CALCIUM EFFERVESCENT TABLET",
+            "dosageForm": "Effervescent Tablets",
+            "healthCategory": "Ortho Supplement",
+            "description": "Fast-absorbing bone density tablet with Calcium Carbonate, Vitamin D3, Vitamin K2-7 (Menaquinone-7), and Magnesium for optimal calcium deposition.",
+            "images": [
+                  "/uploads/products/calcium-effervescent-tablet.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Elemental Calcium",
+                        "strength": "500 mg",
+                        "purpose": "Bone Mineralization"
+                  },
+                  {
+                        "ingredient": "Vitamin D3",
+                        "strength": "400 IU",
+                        "purpose": "Intestinal Calcium Absorption"
+                  },
+                  {
+                        "ingredient": "Vitamin K2-7",
+                        "strength": "55 mcg",
+                        "purpose": "Arterial Calcification Defense"
+                  }
+            ],
+            "benefits": [
+                  "Superior calcium absorption compared to dry chalky pills",
+                  "Tangy orange flavor"
+            ],
+            "moq": "10,000 Tubes",
+            "packaging": "Tube (20 effervescent tabs)"
+      },
+      {
+            "name": "OMEGA 3 CAPSULES",
+            "dosageForm": "Soft Gel Capsules",
+            "healthCategory": "Heart Supplement",
+            "description": "Triple strength molecularly distilled Omega-3 fish oil softgels delivering 1000mg with 360mg EPA and 240mg DHA for heart, brain, and joint mobility.",
+            "images": [
+                  "/uploads/products/omega-3-capsules.webp"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Fish Oil Complex (Omega-3)",
+                        "strength": "1000 mg",
+                        "purpose": "Systemic Anti-inflammatory"
+                  },
+                  {
+                        "ingredient": "EPA (Eicosapentaenoic Acid)",
+                        "strength": "360 mg",
+                        "purpose": "Triglyceride Modulation"
+                  },
+                  {
+                        "ingredient": "DHA (Docosahexaenoic Acid)",
+                        "strength": "240 mg",
+                        "purpose": "Brain Neuronal Support"
+                  }
+            ],
+            "benefits": [
+                  "Heavy metal & mercury tested",
+                  "Burpless formulation with natural lemon oil"
+            ],
+            "moq": "50,000 Softgels",
+            "packaging": "Bottle (60 softgels) or Blister"
+      },
+      {
+            "name": "L CARNITINE SHOTS",
+            "dosageForm": "Oral Shots",
+            "healthCategory": "Energy & Gym Supplement",
+            "description": "Ready-to-drink concentrated 25ml liquid shot delivering 3000mg pure L-Carnitine with Vitamin B5 for cellular fat burning and intense workout energy.",
+            "images": [
+                  "/uploads/products/l-carnitine-shots.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Pure L-Carnitine Base",
+                        "strength": "3000 mg",
+                        "purpose": "Mitochondrial Fatty Acid Beta-Oxidation"
+                  },
+                  {
+                        "ingredient": "Pantothenic Acid (Vitamin B5)",
+                        "strength": "5 mg",
+                        "purpose": "Energy Co-enzyme"
+                  }
+            ],
+            "benefits": [
+                  "Instant pre-workout liquid energy shot",
+                  "Fast gastric absorption without digestion lag"
+            ],
+            "moq": "25,000 Vials",
+            "packaging": "25ml Amber PET Vials (Pack of 10 or 30)",
+            "featured": true
+      },
+      {
+            "name": "PROBIOTIC SHOTS",
+            "dosageForm": "Oral Shots",
+            "healthCategory": "Digestive & Probiotic Supplement",
+            "description": "Ready-to-drink 25ml multi-strain liquid probiotic shot with digestive enzymes and prebiotic inulin for instant gastrointestinal comfort.",
+            "images": [
+                  "/uploads/products/probiotic-shots.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Multi-Strain Spore Probiotic Blend",
+                        "strength": "5 Billion CFU",
+                        "purpose": "Flora Balance"
+                  },
+                  {
+                        "ingredient": "Enzyme Complex (Amylase, Protease, Lipase)",
+                        "strength": "50 mg",
+                        "purpose": "Food Breakdown"
+                  }
+            ],
+            "benefits": [
+                  "Immediate soothing relief for digestive heaviness",
+                  "Delicious naturally sweetened taste"
+            ],
+            "moq": "25,000 Vials",
+            "packaging": "25ml Vials (Pack of 10)"
+      },
+      {
+            "name": "VITAMIN D3 SHOTS",
+            "dosageForm": "Oral Shots",
+            "healthCategory": "Ortho Supplement",
+            "description": "High-potency single-dose 5ml oral solution delivering 60,000 IU Cholecalciferol (Vitamin D3) for acute clinical deficiency correction.",
+            "images": [
+                  "/uploads/products/vitamin-d3-shots.jpg"
+            ],
+            "composition": [
+                  {
+                        "ingredient": "Cholecalciferol (Vitamin D3)",
+                        "strength": "60,000 IU",
+                        "purpose": "Bone & Immune Deficiency Correction"
+                  }
+            ],
+            "benefits": [
+                  "Palatable butterscotch / sugar-free oral shot",
+                  "Clinically recommended weekly protocol"
+            ],
+            "moq": "25,000 Vials",
+            "packaging": "5ml Plastic Ampoules (Pack of 4)"
+      }
+];
+
+    const productsWithSlugs = realProducts.map((p) => ({
       ...p,
-      slug: p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+      slug: p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
     }));
     await Product.insertMany(productsWithSlugs);
 
@@ -437,32 +930,32 @@ const seedData = async () => {
         order: 2,
       },
       {
-        question: 'What are your standard Minimum Order Quantities (MOQ)?',
-        answer: 'Our standard MOQ for liquid-filled hard capsules is 50,000 units per formulation. For tablets and effervescents, MOQs start from 50,000 units. For oral shots, MOQs begin at 25,000 vials.',
+        question: 'What are your standard Minimum Order Quantities (MOQs)?',
+        answer: 'Our standard MOQ for liquid-filled hard capsules is 50,000 units. For gummies, MOQs start from 15,000 jars. For tablets and effervescents, MOQs start from 50,000 units. For oral shots, MOQs begin at 25,000 vials.',
         category: 'manufacturing',
         order: 3,
       },
       {
-        question: 'Can ONPHARNO customize our proprietary formulation?',
-        answer: 'Yes! Our dedicated R&D lab can perform complete formulation development, reverse engineering, active compatibility studies, and stability scale-up for your brand.',
+        question: 'Can you customize formulations with our proprietary ingredients?',
+        answer: 'Yes! Our R&D and analytical formulation team works with both custom proprietary ingredient combinations as well as turnkey market-ready formulas.',
         category: 'general',
         order: 4,
       },
       {
         question: 'Do you provide full export regulatory documentation?',
-        answer: 'Yes, we supply complete batch manufacturing records (BMR), certificates of analysis (COA), accelerated stability testing dossiers, and CTD dossiers for MOH approvals worldwide.',
+        answer: 'Yes, we supply complete batch manufacturing records (BMR), certificates of analysis (COA), accelerated stability testing dossiers, and CTD dossiers for MOH approvals worldwide across 15+ countries.',
         category: 'partnership',
         order: 5,
       },
     ];
     await FAQ.insertMany(faqs);
 
-    console.log('🏆 Seeding Certifications...');
+    console.log('🏆 Seeding Certifications (FSSAI, GMP, ISO, Halal)...');
     const certs = [
-      { title: 'WHO-GMP Compliant', code: 'cGMP', authority: 'World Health Organization Good Manufacturing Practices', description: 'Certified cleanrooms, automated environmental monitoring, and validated batch controls.' },
-      { title: 'ISO 22000:2018', code: 'ISO-22000', authority: 'International Food Safety Management System', description: 'Comprehensive hazard analysis and food safety controls throughout processing.' },
-      { title: 'ISO 9001:2015', code: 'ISO-9001', authority: 'Quality Management Systems', description: 'Certified quality assurance systems, document control, and continuous audit protocols.' },
-      { title: 'FSSAI Manufacturing License', code: 'FSSAI', authority: 'Food Safety and Standards Authority', description: 'Full statutory compliance for nutraceutical and functional food processing.' },
+      { title: 'FSSAI Approved Facility', code: 'FSSAI', authority: 'Food Safety and Standards Authority of India', description: 'Certified manufacturing infrastructure meeting the highest statutory standards for food and supplement safety.' },
+      { title: 'WHO-GMP Compliant', code: 'cGMP', authority: 'World Health Organization Good Manufacturing Practices', description: 'Class 100,000 cleanrooms, HEPA filtration, automated environmental monitoring, and validated batch controls.' },
+      { title: 'ISO 22000:2018', code: 'ISO-22000', authority: 'International Food Safety Management System', description: 'HACCP-based hazard analysis and preventive safety systems across raw material procurement and finished product dispatch.' },
+      { title: 'ISO 9001:2015', code: 'ISO-9001', authority: 'Quality Management Systems', description: 'Standardized operating procedures, strict document control, analytical calibration, and continuous audit trails.' },
     ];
     await Certification.insertMany(certs);
 
@@ -473,19 +966,19 @@ const seedData = async () => {
       logo: '/logo.png',
       logoWhite: '/logo.png',
       favicon: '/favicon.png',
-      phone: '+91 98765 43210',
-      email: 'info@onpharno.com',
-      address: 'Pharmaceutical Technology Park, Innovation Drive, Gujarat, India',
-      workingHours: 'Monday - Friday: 9:00 AM - 6:00 PM (IST)',
-      whatsappNumber: '+919876543210',
+      phone: '+91 89809 40940',
+      email: 'sales@onpharno.com',
+      address: 'Pharmaceutical Technology Park, Innovation Drive, Ahmedabad, Gujarat, India',
+      workingHours: 'Monday - Saturday: 9:00 AM - 6:30 PM (IST)',
+      whatsappNumber: '+918980940940',
       socialLinks: {
         linkedin: 'https://linkedin.com/company/onpharno',
         instagram: 'https://instagram.com/onpharno',
-        email: 'mailto:info@onpharno.com',
+        email: 'mailto:sales@onpharno.com',
       },
     });
 
-    console.log('✨ Database Seeding Completed Successfully! ✨');
+    console.log('✨ SevenQ-Aligned Real Database Seeding Completed Successfully! ✨');
     process.exit(0);
   } catch (error) {
     console.error('❌ Seeding Error:', error);
