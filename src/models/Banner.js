@@ -4,8 +4,8 @@ const bannerSchema = new mongoose.Schema(
   {
     eyebrow: {
       type: String,
-      required: true,
       trim: true,
+      default: '',
     },
     title: {
       type: String,
@@ -15,30 +15,47 @@ const bannerSchema = new mongoose.Schema(
     subtitle: {
       type: String,
       trim: true,
+      default: '',
+    },
+    badge: {
+      type: String,
+      trim: true,
+      default: '',
+    },
+    trustPoints: {
+      type: String,
+      trim: true,
+      default: '',
     },
     cta1Text: {
       type: String,
-      default: 'Explore Technology',
+      trim: true,
+      default: '',
     },
     cta1Link: {
       type: String,
-      default: '/products/liquid-filled-hard-capsules',
+      trim: true,
+      default: '',
     },
     cta2Text: {
       type: String,
-      default: 'Start a Project',
+      trim: true,
+      default: '',
     },
     cta2Link: {
       type: String,
-      default: '/contact',
+      trim: true,
+      default: '',
     },
     imageDesktop: {
       type: String,
-      default: '/images/hero-banner-1.jpg',
+      trim: true,
+      default: '',
     },
     imageMobile: {
       type: String,
-      default: '/images/mobile-banner-1.jpg',
+      trim: true,
+      default: '',
     },
     order: {
       type: Number,
