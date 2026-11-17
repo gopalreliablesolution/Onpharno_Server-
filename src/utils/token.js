@@ -26,13 +26,18 @@ export const generateRefreshToken = (user) => {
 
 export const getCookieOptions = (maxAgeMs) => {
   const isProd = process.env.NODE_ENV === 'production';
-  return {
+  const sameSite = (process.env.COOKIE_SAMESITE || (isProd ? 'none' : 'lax')).toLowerCase();
+  const secure = isProd ? true : String(process.env.COOKIE_SECURE || '').toLowerCase() === 'true';
+  const domain = process.env.COOKIE_DOMAIN || undefined;
+  const opts = {
     httpOnly: true,
-    secure: isProd,
-    sameSite: isProd ? 'none' : 'lax',
+    secure: sameSite === 'none' ? true : secure,
+    sameSite,
     maxAge: maxAgeMs,
     path: '/',
   };
+  if (domain) opts.domain = domain;
+  return opts;
 };
 
 export const sendTokenResponse = (user, statusCode, res) => {
