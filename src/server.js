@@ -21,8 +21,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 5000;
 const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5173';
+const allowedOrigins = [
+  CLIENT_URL,
+  'https://onpharno.netlify.app',
+  'https://onpharno.com',
+  'https://www.onpharno.com',
+  ...(process.env.NODE_ENV !== 'production' ? ['http://localhost:5173', 'http://localhost:3000'] : []),
+].filter(Boolean);
 
 // Security & Parsing Middleware
 app.use(
@@ -32,11 +40,14 @@ app.use(
 );
 app.use(
   cors({
-    origin: [CLIENT_URL, 'http://localhost:5173', 'http://localhost:3000', 'https://onpharno.com'],
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) return callback(null, true);
+      return callback(new Error('Not allowed by CORS'));
+    },
     credentials: true,
   })
 );
-app.use(morgan('dev'));
+app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
 app.use(express.json({ limit: '20mb' }));
 app.use(express.urlencoded({ extended: true, limit: '20mb' }));
 app.use(cookieParser());
