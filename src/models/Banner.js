@@ -34,11 +34,11 @@ const bannerSchema = new mongoose.Schema(
     },
     imageDesktop: {
       type: String,
-      default: '/uploads/logo.png',
+      default: '/images/hero-banner-1.jpg',
     },
     imageMobile: {
       type: String,
-      default: '/uploads/logo.png',
+      default: '/images/mobile-banner-1.jpg',
     },
     order: {
       type: Number,
