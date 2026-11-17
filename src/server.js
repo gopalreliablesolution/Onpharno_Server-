@@ -7,7 +7,15 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+import connectDB from './config/db.js';
+import authRoutes from './routes/authRoutes.js';
+import publicRoutes from './routes/publicRoutes.js';
+import adminRoutes from './routes/adminRoutes.js';
+
 dotenv.config();
+
+// Connect to Database
+connectDB();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -17,19 +25,23 @@ const PORT = process.env.PORT || 5000;
 const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5173';
 
 // Security & Parsing Middleware
-app.use(helmet({
-  crossOriginResourcePolicy: { policy: "cross-origin" }
-}));
-app.use(cors({
-  origin: [CLIENT_URL, 'http://localhost:5173', 'http://localhost:3000'],
-  credentials: true
-}));
+app.use(
+  helmet({
+    crossOriginResourcePolicy: { policy: 'cross-origin' },
+  })
+);
+app.use(
+  cors({
+    origin: [CLIENT_URL, 'http://localhost:5173', 'http://localhost:3000', 'https://onpharno.com'],
+    credentials: true,
+  })
+);
 app.use(morgan('dev'));
 app.use(express.json({ limit: '20mb' }));
 app.use(express.urlencoded({ extended: true, limit: '20mb' }));
 app.use(cookieParser());
 
-// Static uploads directory (Local server storage)
+// Static uploads directory (Server-stored files - No external cloud lock-in)
 const uploadsDir = path.join(__dirname, '../uploads');
 app.use('/uploads', express.static(uploadsDir));
 
@@ -39,15 +51,20 @@ app.get('/api/v1/health', (req, res) => {
     success: true,
     message: 'ONPHARNO API is operating normally',
     timestamp: new Date().toISOString(),
-    environment: process.env.NODE_ENV || 'development'
+    environment: process.env.NODE_ENV || 'development',
   });
 });
+
+// Mount Routes
+app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/admin', adminRoutes);
+app.use('/api/v1', publicRoutes);
 
 // Fallback 404 handler
 app.use((req, res) => {
   res.status(404).json({
     success: false,
-    message: `Route not found: ${req.originalUrl}`
+    message: `Route not found: ${req.originalUrl}`,
   });
 });
 
@@ -56,7 +73,7 @@ app.use((err, req, res, next) => {
   console.error('Unhandled Server Error:', err);
   res.status(err.status || 500).json({
     success: false,
-    message: err.message || 'Internal Server Error'
+    message: err.message || 'Internal Server Error',
   });
 });
 
