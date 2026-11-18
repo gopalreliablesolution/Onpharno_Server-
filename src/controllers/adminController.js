@@ -14,6 +14,9 @@ import Video from '../models/Video.js';
 import Stat from '../models/Stat.js';
 import Enquiry from '../models/Enquiry.js';
 import Media from '../models/Media.js';
+import Menu from '../models/Menu.js';
+import Page from '../models/Page.js';
+import ActivityLog from '../models/ActivityLog.js';
 import fs from 'fs/promises';
 import { processUploadedFile } from '../services/uploadService.js';
 
@@ -98,6 +101,22 @@ export const updateSettings = async (req, res, next) => {
   } catch (err) { next(err); }
 };
 
+export const logAdminActivity = async (req, action, resource, details = {}) => {
+  try {
+    if (!req.user) return;
+    await ActivityLog.create({
+      userId: req.user.id || req.user._id,
+      userEmail: req.user.email,
+      action,
+      resource,
+      details,
+      ip: req.ip || req.headers['x-forwarded-for'] || '',
+    });
+  } catch {
+    // Audit logging never interrupts request flow
+  }
+};
+
 const createCrudHandlers = (Model, name, fields = null) => ({
   getAll: async (req, res, next) => {
     try {
@@ -115,6 +134,7 @@ const createCrudHandlers = (Model, name, fields = null) => ({
     try {
       const payload = fields ? pick(req.body || {}, fields) : req.body;
       const item = await Model.create(payload);
+      logAdminActivity(req, 'CREATE', name, { id: item._id });
       res.status(201).json({ success: true, data: item, message: `${name} created` });
     } catch (err) { next(err); }
   },
@@ -124,6 +144,7 @@ const createCrudHandlers = (Model, name, fields = null) => ({
       const payload = fields ? pick(req.body || {}, fields) : req.body;
       const item = await Model.findByIdAndUpdate(req.params.id, payload, { new: true, runValidators: true });
       if (!item) return res.status(404).json({ success: false, message: `${name} not found` });
+      logAdminActivity(req, 'UPDATE', name, { id: req.params.id });
       res.status(200).json({ success: true, data: item, message: `${name} updated` });
     } catch (err) { next(err); }
   },
@@ -132,6 +153,7 @@ const createCrudHandlers = (Model, name, fields = null) => ({
       if (!mongoose.isValidObjectId(req.params.id)) return res.status(400).json({ success: false, message: 'Invalid id' });
       const item = await Model.findByIdAndDelete(req.params.id);
       if (!item) return res.status(404).json({ success: false, message: `${name} not found` });
+      logAdminActivity(req, 'DELETE', name, { id: req.params.id });
       res.status(200).json({ success: true, message: `${name} deleted` });
     } catch (err) { next(err); }
   },
@@ -149,6 +171,8 @@ const CERT_FIELDS = ['title','code','authority','description','image','documentP
 const VIDEO_FIELDS = ['title','description','videoUrl','thumbnail','order','active'];
 const STAT_FIELDS = ['label','value','suffix','order','active'];
 const ENQUIRY_FIELDS = ['status','notes'];
+const MENU_FIELDS = ['location','title','url','order','items','active'];
+const PAGE_FIELDS = ['key','title','slug','seo','active'];
 
 export const bannersCrud = createCrudHandlers(Banner, 'Banner', BANNER_FIELDS);
 export const sectionsCrud = createCrudHandlers(Section, 'Section', SECTION_FIELDS);
@@ -161,6 +185,20 @@ export const facilitiesCrud = createCrudHandlers(Facility, 'Facility', FACILITY_
 export const certsCrud = createCrudHandlers(Certification, 'Certification', CERT_FIELDS);
 export const videosCrud = createCrudHandlers(Video, 'Video', VIDEO_FIELDS);
 export const statsCrud = createCrudHandlers(Stat, 'Stat', STAT_FIELDS);
+export const menusCrud = createCrudHandlers(Menu, 'Menu', MENU_FIELDS);
+export const pagesCrud = createCrudHandlers(Page, 'Page', PAGE_FIELDS);
+
+export const getActivityLogs = async (req, res, next) => {
+  try {
+    const page = Math.max(parseInt(req.query.page || '1', 10), 1);
+    const limit = Math.min(Math.max(parseInt(req.query.limit || '50', 10), 1), 100);
+    const [items, total] = await Promise.all([
+      ActivityLog.find().sort({ createdAt: -1 }).skip((page - 1) * limit).limit(limit),
+      ActivityLog.countDocuments(),
+    ]);
+    res.status(200).json({ success: true, data: items, pagination: { total, page, pages: Math.ceil(total / limit) } });
+  } catch (err) { next(err); }
+};
 
 export const enquiriesCrud = {
   ...createCrudHandlers(Enquiry, 'Enquiry', ENQUIRY_FIELDS),
