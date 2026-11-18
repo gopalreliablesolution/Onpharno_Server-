@@ -41,7 +41,10 @@ export const getSettings = async (req, res, next) => {
 export const getPageSections = async (req, res, next) => {
   try {
     const { key } = req.params;
-    const sections = await Section.find({ pageKey: key, visible: true }).sort('order');
+    const includeHidden = String(req.query.includeHidden || '').toLowerCase() === 'true';
+    const filter = { pageKey: key };
+    if (!includeHidden) filter.visible = true;
+    const sections = await Section.find(filter).sort('order');
     res.status(200).json({ success: true, data: sections });
   } catch (err) {
     next(err);
