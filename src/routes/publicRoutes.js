@@ -17,6 +17,8 @@ import {
   getVideos,
   getStats,
   getMenus,
+  getPages,
+  getPageByKey,
   createEnquiry,
   createPartnerEnquiry,
   createProductEnquiry,
@@ -65,6 +67,8 @@ router.get('/certifications', getCertifications);
 router.get('/videos', getVideos);
 router.get('/stats', getStats);
 router.get('/menus', getMenus);
+router.get('/pages', getPages);
+router.get('/pages/:key', getPageByKey);
 
 // Inquiries
 router.post('/enquiries', enquiryLimiter, enquiryValidation, validate, createEnquiry);

@@ -253,6 +253,28 @@ export const getMenus = async (req, res, next) => {
   }
 };
 
+// Get Public Pages / SEO Metadata
+export const getPages = async (req, res, next) => {
+  try {
+    const pages = await Page.find({ active: true });
+    res.status(200).json({ success: true, data: pages });
+  } catch (err) {
+    next(err);
+  }
+};
+
+export const getPageByKey = async (req, res, next) => {
+  try {
+    const page = await Page.findOne({ key: req.params.key, active: true });
+    if (!page) {
+      return res.status(404).json({ success: false, message: 'Page metadata not found' });
+    }
+    res.status(200).json({ success: true, data: page });
+  } catch (err) {
+    next(err);
+  }
+};
+
 import { sendEnquiryEmails } from '../services/emailService.js';
 
 // Create Inquiries

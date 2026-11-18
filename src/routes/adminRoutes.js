@@ -21,6 +21,9 @@ import {
   enquiriesCrud,
   usersCrud,
   mediaCrud,
+  menusCrud,
+  pagesCrud,
+  getActivityLogs,
   changeMyPassword,
 } from '../controllers/adminController.js';
 
@@ -100,5 +103,9 @@ router.post(
 router.get('/users', authorize('superadmin'), usersCrud.getAll);
 router.put('/users/:id', authorize('superadmin'), usersCrud.update);
 router.delete('/users/:id', authorize('superadmin'), usersCrud.delete);
+
+registerCrudRoutes('menus', menusCrud, ['superadmin', 'admin']);
+registerCrudRoutes('pages', pagesCrud, ['superadmin', 'admin']);
+router.get('/activity-logs', authorize('superadmin'), getActivityLogs);
 
 export default router;
