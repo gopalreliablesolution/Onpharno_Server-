@@ -52,3 +52,40 @@ Set `API_BASE_URL`, and optionally `TEST_EMAIL`/`TEST_PASSWORD` (do not print or
 - **Recommended production setup:** serve frontend and API on the same registrable domain (e.g. `https://onpharno.com` and `https://api.onpharno.com`) with `COOKIE_SAMESITE=lax` (and `COOKIE_DOMAIN` as appropriate). This is the most reliable option.
 - **Cross-site limitation:** the current split setup (`https://onpharno.netlify.app` + `https://onpharno-server.onrender.com`) requires cross-site cookies (`SameSite=None; Secure`). **Safari/iOS and other browsers that block third-party cookies may prevent admin login/sessions in this configuration.** Prefer the single-domain setup above or a same-site proxy. This scenario should be verified on Safari/iOS or treated as blocked by the cross-site setup.
 
+## Upload Storage, Security & Backup Runbook
+
+### Local-Only Durable Storage
+- Zero third-party cloud storage lock-in (no Cloudinary, AWS S3, or GCS). All files are processed and stored on the local server filesystem.
+- Uploads directory resolved dynamically via `UPLOAD_DIR` environment variable (defaults to `./uploads`).
+- Validation & Processing Pipeline:
+  - Whitelist: `.jpg`, `.jpeg`, `.png`, `.webp`, `.gif`, `.pdf`, `.mp4`
+  - SVG blocked (prevents XSS/XML-entity attacks).
+  - Magic byte binary signature validation using `file-type` (blocks spoofed extensions like `backdoor.php` renamed to `.jpg`).
+  - Double extension detection (blocks `shell.php.jpg`, etc.).
+  - Size limits: Images <= 5MB, PDF <= 10MB, Video <= 50MB.
+  - Automatic WebP conversion and max 1920px resizing via `sharp`.
+  - 400x400 WebP thumbnail generation (`_thumb.webp`).
+  - Static serving with immutable cache headers and `X-Content-Type-Options: nosniff`.
+  - Media delete cleanly removes both master file and thumbnail.
+
+### ⚠️ Ephemeral Disk Notice (Render Hosting)
+- Standard Web Services on Render have **ephemeral filesystems**. When the service sleeps, restarts, or redeploys, any files uploaded to `./uploads` are erased unless backed by a durable volume.
+- **Ops Requirement (HIGH Priority):**
+  1. Attach a **Render Persistent Disk** mounted at `/uploads` (available on Render Paid plans), OR
+  2. Deploy API to a VPS / dedicated VM with a persistent block storage volume.
+
+### Backup & Restore Commands
+- **Check File Integrity**:
+  ```bash
+  npm run uploads:check
+  ```
+- **Create Backup Archive**:
+  ```bash
+  tar -czf uploads_backup_$(date +%F).tar.gz uploads/
+  ```
+- **Restore Archive**:
+  ```bash
+  tar -xzf uploads_backup_*.tar.gz -C ./
+  ```
+
+

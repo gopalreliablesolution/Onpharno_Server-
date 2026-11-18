@@ -12,6 +12,7 @@ import authRoutes from './routes/authRoutes.js';
 import publicRoutes from './routes/publicRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
 import { csrfProtection } from './middleware/csrf.js';
+import { getUploadDir } from './services/uploadService.js';
 
 dotenv.config();
 
@@ -63,9 +64,19 @@ app.use(express.urlencoded({ extended: true, limit: '20mb' }));
 app.use(cookieParser());
 app.use('/api/v1', csrfProtection);
 
-// Static uploads directory (Server-stored files - No external cloud lock-in)
-const uploadsDir = path.join(__dirname, '../uploads');
-app.use('/uploads', express.static(uploadsDir));
+// Static uploads directory (Server-stored files - Local durable storage)
+const uploadsDir = getUploadDir();
+app.use(
+  '/uploads',
+  express.static(uploadsDir, {
+    maxAge: '365d',
+    immutable: true,
+    index: false,
+    setHeaders: (res) => {
+      res.setHeader('X-Content-Type-Options', 'nosniff');
+    },
+  })
+);
 
 // Health check endpoint
 app.get('/api/v1/health', (req, res) => {
@@ -91,9 +102,17 @@ app.use((req, res) => {
 });
 
 // Global error handler
-app.use((err, req, res, next) => {
-  console.error('Unhandled Server Error:', err);
-  res.status(err.status || 500).json({
+app.use((err, req, res, _next) => {
+  const isUploadOrClientError =
+    err.name === 'MulterError' ||
+    err.status === 400 ||
+    /file|upload|extension|csrf|validation|payload/i.test(err.message || '');
+  const status = isUploadOrClientError ? (err.status || 400) : (err.status || 500);
+
+  if (status >= 500 && process.env.NODE_ENV !== 'test') {
+    console.error('Unhandled Server Error:', err);
+  }
+  res.status(status).json({
     success: false,
     message: err.message || 'Internal Server Error',
   });
