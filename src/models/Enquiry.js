@@ -58,6 +58,16 @@ const enquirySchema = new mongoose.Schema(
     },
     notes: {
       type: String,
+      default: '',
+    },
+    emailStatus: {
+      type: String,
+      enum: ['pending', 'sent', 'failed', 'disabled'],
+      default: 'pending',
+    },
+    emailError: {
+      type: String,
+      default: '',
     },
   },
   {

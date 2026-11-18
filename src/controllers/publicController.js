@@ -212,26 +212,36 @@ export const getMenus = async (req, res, next) => {
   }
 };
 
+import { sendEnquiryEmails } from '../services/emailService.js';
+
 // Create Inquiries
-const pickEnquiry = (body, type) => ({
-  name: body.name,
-  email: body.email,
-  phone: body.phone,
-  company: body.company,
-  subject: body.subject,
-  message: body.message,
-  quantity: body.quantity,
-  productInterest: body.productInterest || body.dosageInterest,
-  businessType: body.businessType,
-  location: body.location,
-  productName: body.productName,
-  productSlug: body.productSlug,
-  type,
-});
+const pickEnquiry = (body, defaultType) => {
+  const allowedTypes = ['contact', 'partner', 'product', 'project'];
+  const type = allowedTypes.includes(body?.type) ? body.type : defaultType;
+  return {
+    name: body.name,
+    email: body.email,
+    phone: body.phone,
+    company: body.company,
+    subject: body.subject,
+    message: body.message,
+    quantity: body.quantity,
+    productInterest: body.productInterest || body.dosageInterest,
+    businessType: body.businessType,
+    location: body.location,
+    productName: body.productName,
+    productSlug: body.productSlug,
+    type,
+  };
+};
 
 export const createEnquiry = async (req, res, next) => {
   try {
     const enquiry = await Enquiry.create(pickEnquiry(req.body, 'contact'));
+    // Fire email notifications asynchronously without blocking HTTP response
+    sendEnquiryEmails(enquiry).catch((err) => {
+      console.error('Email dispatch error on enquiry:', err?.message || err);
+    });
     res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Enquiry submitted successfully' });
   } catch (err) {
     next(err);
@@ -241,6 +251,9 @@ export const createEnquiry = async (req, res, next) => {
 export const createPartnerEnquiry = async (req, res, next) => {
   try {
     const enquiry = await Enquiry.create(pickEnquiry(req.body, 'partner'));
+    sendEnquiryEmails(enquiry).catch((err) => {
+      console.error('Email dispatch error on partner enquiry:', err?.message || err);
+    });
     res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Partner enquiry submitted successfully' });
   } catch (err) {
     next(err);
@@ -250,7 +263,22 @@ export const createPartnerEnquiry = async (req, res, next) => {
 export const createProductEnquiry = async (req, res, next) => {
   try {
     const enquiry = await Enquiry.create(pickEnquiry(req.body, 'product'));
+    sendEnquiryEmails(enquiry).catch((err) => {
+      console.error('Email dispatch error on product enquiry:', err?.message || err);
+    });
     res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Product enquiry submitted successfully' });
+  } catch (err) {
+    next(err);
+  }
+};
+
+export const createProjectEnquiry = async (req, res, next) => {
+  try {
+    const enquiry = await Enquiry.create(pickEnquiry(req.body, 'project'));
+    sendEnquiryEmails(enquiry).catch((err) => {
+      console.error('Email dispatch error on project enquiry:', err?.message || err);
+    });
+    res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Project enquiry submitted successfully' });
   } catch (err) {
     next(err);
   }

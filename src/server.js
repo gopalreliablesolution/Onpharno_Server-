@@ -15,16 +15,17 @@ import { csrfProtection } from './middleware/csrf.js';
 
 dotenv.config();
 
-const requiredEnv = ['MONGO_URI', 'JWT_SECRET', 'JWT_REFRESH_SECRET'];
-for (const key of requiredEnv) {
-  if (!process.env[key]) {
-    console.error(`Missing required environment variable: ${key}`);
-    process.exit(1);
+// Connect to Database in non-test environments
+if (process.env.NODE_ENV !== 'test') {
+  const requiredEnv = ['MONGO_URI', 'JWT_SECRET', 'JWT_REFRESH_SECRET'];
+  for (const key of requiredEnv) {
+    if (!process.env[key]) {
+      console.error(`Missing required environment variable: ${key}`);
+      process.exit(1);
+    }
   }
+  connectDB();
 }
-
-// Connect to Database
-connectDB();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -98,9 +99,13 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 ONPHARNO Server listening on http://localhost:${PORT}`);
-  console.log(`📁 Static files served from: ${uploadsDir}`);
-});
+let server = null;
+if (process.env.NODE_ENV !== 'test') {
+  server = app.listen(PORT, () => {
+    console.log(`🚀 ONPHARNO Server listening on http://localhost:${PORT}`);
+    console.log(`📁 Static files served from: ${uploadsDir}`);
+  });
+}
 
+export { server };
 export default app;
