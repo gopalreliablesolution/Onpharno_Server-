@@ -20,6 +20,7 @@ import {
   createEnquiry,
   createPartnerEnquiry,
   createProductEnquiry,
+  createProjectEnquiry,
 } from '../controllers/publicController.js';
 
 const router = express.Router();
@@ -69,5 +70,6 @@ router.get('/menus', getMenus);
 router.post('/enquiries', enquiryLimiter, enquiryValidation, validate, createEnquiry);
 router.post('/partner-enquiries', enquiryLimiter, enquiryValidation, validate, createPartnerEnquiry);
 router.post('/product-enquiries', enquiryLimiter, enquiryValidation, validate, createProductEnquiry);
+router.post('/project-enquiries', enquiryLimiter, enquiryValidation, validate, createProjectEnquiry);
 
 export default router;
