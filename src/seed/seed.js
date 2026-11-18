@@ -16,13 +16,27 @@ import Section from '../models/Section.js';
 
 dotenv.config();
 
+const isProduction = process.env.NODE_ENV === 'production';
+const hasForceFlag = process.argv.includes('--force');
+
+if (isProduction && !hasForceFlag) {
+  console.error('❌ SEED ABORTED: NODE_ENV is set to production.');
+  console.error('To run seeding in production, you must explicitly provide the --force flag:');
+  console.error('   node src/seed/seed.js --force');
+  process.exit(1);
+}
+
+if (isProduction) {
+  console.warn('⚠️ WARNING: Running seed in PRODUCTION with --force.');
+  console.warn('🔒 User accounts will NOT be deleted or overwritten in production mode.');
+}
+
 const seedData = async () => {
   try {
     await connectDB();
     console.log('🧹 Clearing existing collections...');
 
-    await Promise.all([
-      User.deleteMany(),
+    const clearTasks = [
       Banner.deleteMany(),
       Category.deleteMany(),
       Product.deleteMany(),
@@ -34,18 +48,29 @@ const seedData = async () => {
       Stat.deleteMany(),
       Setting.deleteMany(),
       Section.deleteMany(),
-    ]);
+    ];
+
+    if (!isProduction) {
+      clearTasks.push(User.deleteMany());
+    }
+
+    await Promise.all(clearTasks);
 
     console.log('👤 Seeding Admin User...');
     const adminEmail = process.env.ADMIN_EMAIL || 'admin@onpharno.com';
     const adminPassword = process.env.ADMIN_PASSWORD || 'Admin@Onpharno2026!';
-    await User.create({
-      name: 'System Superadmin',
-      email: adminEmail,
-      password: adminPassword,
-      role: 'superadmin',
-    });
-    console.log(`✅ Admin created: ${adminEmail}`);
+    const existingAdmin = await User.findOne({ email: adminEmail });
+    if (!existingAdmin) {
+      await User.create({
+        name: 'System Superadmin',
+        email: adminEmail,
+        password: adminPassword,
+        role: 'superadmin',
+      });
+      console.log(`✅ Admin created: ${adminEmail}`);
+    } else {
+      console.log(`ℹ️ Admin user already exists: ${adminEmail} (preserved)`);
+    }
 
     console.log('🏷️ Seeding Real Therapeutic Classes & Dosage Forms (SevenQ structure)...');
     const healthCategories = [

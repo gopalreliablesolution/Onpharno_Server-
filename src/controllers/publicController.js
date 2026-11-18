@@ -48,17 +48,26 @@ export const getPageSections = async (req, res, next) => {
   }
 };
 
+export const sanitizeSearchQuery = (input, maxLength = 100) => {
+  if (!input || typeof input !== 'string') return '';
+  const trimmed = input.trim().slice(0, maxLength);
+  return trimmed.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+};
+
 // Get Products Catalog with Filtering
 export const getProducts = async (req, res, next) => {
   try {
-    const { search, category, dosage, page = 1, limit = 50 } = req.query;
+    const page = Math.max(parseInt(req.query.page || '1', 10), 1);
+    const limit = Math.min(Math.max(parseInt(req.query.limit || '50', 10), 1), 100);
+    const { search, category, dosage } = req.query;
     const query = { status: 'published' };
 
-    if (search) {
+    const sanitizedSearch = sanitizeSearchQuery(search, 100);
+    if (sanitizedSearch) {
       query.$or = [
-        { name: { $regex: search, $options: 'i' } },
-        { description: { $regex: search, $options: 'i' } },
-        { 'composition.ingredient': { $regex: search, $options: 'i' } },
+        { name: { $regex: sanitizedSearch, $options: 'i' } },
+        { description: { $regex: sanitizedSearch, $options: 'i' } },
+        { 'composition.ingredient': { $regex: sanitizedSearch, $options: 'i' } },
       ];
     }
 
@@ -70,17 +79,19 @@ export const getProducts = async (req, res, next) => {
       query.dosageForm = dosage;
     }
 
-    const total = await Product.countDocuments(query);
-    const products = await Product.find(query)
-      .sort('-createdAt')
-      .skip((page - 1) * limit)
-      .limit(Number(limit));
+    const [total, products] = await Promise.all([
+      Product.countDocuments(query),
+      Product.find(query)
+        .sort('-createdAt')
+        .skip((page - 1) * limit)
+        .limit(limit),
+    ]);
 
     res.status(200).json({
       success: true,
       data: {
         total,
-        page: Number(page),
+        page,
         pages: Math.ceil(total / limit),
         products,
       },
@@ -119,8 +130,38 @@ export const getCategories = async (req, res, next) => {
 // Get Blogs
 export const getBlogs = async (req, res, next) => {
   try {
-    const blogs = await Blog.find({ status: 'published' }).sort('-publishedAt');
-    res.status(200).json({ success: true, data: blogs });
+    const page = Math.max(parseInt(req.query.page || '1', 10), 1);
+    const limit = Math.min(Math.max(parseInt(req.query.limit || '50', 10), 1), 100);
+    const { search, category } = req.query;
+    const query = { status: 'published' };
+
+    const sanitizedSearch = sanitizeSearchQuery(search, 100);
+    if (sanitizedSearch) {
+      query.$or = [
+        { title: { $regex: sanitizedSearch, $options: 'i' } },
+        { excerpt: { $regex: sanitizedSearch, $options: 'i' } },
+        { tags: { $regex: sanitizedSearch, $options: 'i' } },
+      ];
+    }
+    if (category) query.category = category;
+
+    const [total, blogs] = await Promise.all([
+      Blog.countDocuments(query),
+      Blog.find(query)
+        .sort('-publishedAt -createdAt')
+        .skip((page - 1) * limit)
+        .limit(limit),
+    ]);
+
+    res.status(200).json({
+      success: true,
+      data: blogs,
+      pagination: {
+        total,
+        page,
+        pages: Math.ceil(total / limit),
+      },
+    });
   } catch (err) {
     next(err);
   }
