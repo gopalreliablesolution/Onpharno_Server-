@@ -15,6 +15,7 @@ import Stat from '../models/Stat.js';
 import Enquiry from '../models/Enquiry.js';
 import Media from '../models/Media.js';
 import fs from 'fs/promises';
+import { processUploadedFile } from '../services/uploadService.js';
 
 const pick = (obj, keys) => {
   const out = {};
@@ -54,21 +55,33 @@ export const getDashboardStats = async (req, res, next) => {
 export const uploadFile = async (req, res, next) => {
   try {
     if (!req.file) return res.status(400).json({ success: false, message: 'Please select a file to upload' });
-    const fileUrl = `/uploads/${req.file.filename}`;
+    const processed = await processUploadedFile(req.file);
     const mediaRecord = await Media.create({
-      filename: req.file.filename,
-      originalName: req.file.originalname,
-      mimeType: req.file.mimetype,
-      size: req.file.size,
-      path: req.file.path,
-      url: fileUrl,
+      filename: processed.filename,
+      originalName: processed.originalName,
+      mimeType: processed.mimeType,
+      size: processed.size,
+      path: processed.path,
+      url: processed.url,
+      thumbnailPath: processed.thumbnailPath || '',
+      thumbnailUrl: processed.thumbnailUrl || '',
     });
     res.status(201).json({
       success: true,
-      data: { url: fileUrl, filename: req.file.filename, originalName: req.file.originalname, size: req.file.size, mimeType: req.file.mimetype, id: mediaRecord._id },
-      message: 'File uploaded successfully to server',
+      data: {
+        id: mediaRecord._id,
+        url: processed.url,
+        thumbnailUrl: processed.thumbnailUrl,
+        filename: processed.filename,
+        originalName: processed.originalName,
+        size: processed.size,
+        mimeType: processed.mimeType,
+      },
+      message: 'File uploaded and secured successfully',
     });
-  } catch (err) { next(err); }
+  } catch (err) {
+    return res.status(400).json({ success: false, message: err.message || 'File processing failed' });
+  }
 };
 
 const SETTINGS_FIELDS = ['companyName','tagline','logo','logoWhite','favicon','phone','email','address','workingHours','whatsappNumber','mapEmbed','socialLinks','analyticsId','themeAccent'];
@@ -238,6 +251,7 @@ export const mediaCrud = {
       const item = await Media.findById(req.params.id);
       if (!item) return res.status(404).json({ success: false, message: 'Media not found' });
       try { if (item.path) await fs.unlink(item.path); } catch { /* ignore missing file */ }
+      try { if (item.thumbnailPath) await fs.unlink(item.thumbnailPath); } catch { /* ignore missing thumb */ }
       await Media.findByIdAndDelete(req.params.id);
       res.status(200).json({ success: true, message: 'Media deleted' });
     } catch (err) { next(err); }
