@@ -17,9 +17,12 @@ import {
   getVideos,
   getStats,
   getMenus,
+  getPages,
+  getPageByKey,
   createEnquiry,
   createPartnerEnquiry,
   createProductEnquiry,
+  createProjectEnquiry,
 } from '../controllers/publicController.js';
 
 const router = express.Router();
@@ -64,10 +67,13 @@ router.get('/certifications', getCertifications);
 router.get('/videos', getVideos);
 router.get('/stats', getStats);
 router.get('/menus', getMenus);
+router.get('/pages', getPages);
+router.get('/pages/:key', getPageByKey);
 
 // Inquiries
 router.post('/enquiries', enquiryLimiter, enquiryValidation, validate, createEnquiry);
 router.post('/partner-enquiries', enquiryLimiter, enquiryValidation, validate, createPartnerEnquiry);
 router.post('/product-enquiries', enquiryLimiter, enquiryValidation, validate, createProductEnquiry);
+router.post('/project-enquiries', enquiryLimiter, enquiryValidation, validate, createProjectEnquiry);
 
 export default router;

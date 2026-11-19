@@ -26,6 +26,14 @@ const mediaSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    thumbnailUrl: {
+      type: String,
+      default: '',
+    },
+    thumbnailPath: {
+      type: String,
+      default: '',
+    },
   },
   {
     timestamps: true,

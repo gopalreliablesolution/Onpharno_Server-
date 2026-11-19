@@ -41,24 +41,36 @@ export const getSettings = async (req, res, next) => {
 export const getPageSections = async (req, res, next) => {
   try {
     const { key } = req.params;
-    const sections = await Section.find({ pageKey: key, visible: true }).sort('order');
+    const includeHidden = String(req.query.includeHidden || '').toLowerCase() === 'true';
+    const filter = { pageKey: key };
+    if (!includeHidden) filter.visible = true;
+    const sections = await Section.find(filter).sort('order');
     res.status(200).json({ success: true, data: sections });
   } catch (err) {
     next(err);
   }
 };
 
+export const sanitizeSearchQuery = (input, maxLength = 100) => {
+  if (!input || typeof input !== 'string') return '';
+  const trimmed = input.trim().slice(0, maxLength);
+  return trimmed.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+};
+
 // Get Products Catalog with Filtering
 export const getProducts = async (req, res, next) => {
   try {
-    const { search, category, dosage, page = 1, limit = 50 } = req.query;
+    const page = Math.max(parseInt(req.query.page || '1', 10), 1);
+    const limit = Math.min(Math.max(parseInt(req.query.limit || '50', 10), 1), 100);
+    const { search, category, dosage } = req.query;
     const query = { status: 'published' };
 
-    if (search) {
+    const sanitizedSearch = sanitizeSearchQuery(search, 100);
+    if (sanitizedSearch) {
       query.$or = [
-        { name: { $regex: search, $options: 'i' } },
-        { description: { $regex: search, $options: 'i' } },
-        { 'composition.ingredient': { $regex: search, $options: 'i' } },
+        { name: { $regex: sanitizedSearch, $options: 'i' } },
+        { description: { $regex: sanitizedSearch, $options: 'i' } },
+        { 'composition.ingredient': { $regex: sanitizedSearch, $options: 'i' } },
       ];
     }
 
@@ -70,17 +82,19 @@ export const getProducts = async (req, res, next) => {
       query.dosageForm = dosage;
     }
 
-    const total = await Product.countDocuments(query);
-    const products = await Product.find(query)
-      .sort('-createdAt')
-      .skip((page - 1) * limit)
-      .limit(Number(limit));
+    const [total, products] = await Promise.all([
+      Product.countDocuments(query),
+      Product.find(query)
+        .sort('-createdAt')
+        .skip((page - 1) * limit)
+        .limit(limit),
+    ]);
 
     res.status(200).json({
       success: true,
       data: {
         total,
-        page: Number(page),
+        page,
         pages: Math.ceil(total / limit),
         products,
       },
@@ -119,8 +133,38 @@ export const getCategories = async (req, res, next) => {
 // Get Blogs
 export const getBlogs = async (req, res, next) => {
   try {
-    const blogs = await Blog.find({ status: 'published' }).sort('-publishedAt');
-    res.status(200).json({ success: true, data: blogs });
+    const page = Math.max(parseInt(req.query.page || '1', 10), 1);
+    const limit = Math.min(Math.max(parseInt(req.query.limit || '50', 10), 1), 100);
+    const { search, category } = req.query;
+    const query = { status: 'published' };
+
+    const sanitizedSearch = sanitizeSearchQuery(search, 100);
+    if (sanitizedSearch) {
+      query.$or = [
+        { title: { $regex: sanitizedSearch, $options: 'i' } },
+        { excerpt: { $regex: sanitizedSearch, $options: 'i' } },
+        { tags: { $regex: sanitizedSearch, $options: 'i' } },
+      ];
+    }
+    if (category) query.category = category;
+
+    const [total, blogs] = await Promise.all([
+      Blog.countDocuments(query),
+      Blog.find(query)
+        .sort('-publishedAt -createdAt')
+        .skip((page - 1) * limit)
+        .limit(limit),
+    ]);
+
+    res.status(200).json({
+      success: true,
+      data: blogs,
+      pagination: {
+        total,
+        page,
+        pages: Math.ceil(total / limit),
+      },
+    });
   } catch (err) {
     next(err);
   }
@@ -212,26 +256,58 @@ export const getMenus = async (req, res, next) => {
   }
 };
 
+// Get Public Pages / SEO Metadata
+export const getPages = async (req, res, next) => {
+  try {
+    const pages = await Page.find({ active: true });
+    res.status(200).json({ success: true, data: pages });
+  } catch (err) {
+    next(err);
+  }
+};
+
+export const getPageByKey = async (req, res, next) => {
+  try {
+    const page = await Page.findOne({ key: req.params.key, active: true });
+    if (!page) {
+      return res.status(404).json({ success: false, message: 'Page metadata not found' });
+    }
+    res.status(200).json({ success: true, data: page });
+  } catch (err) {
+    next(err);
+  }
+};
+
+import { sendEnquiryEmails } from '../services/emailService.js';
+
 // Create Inquiries
-const pickEnquiry = (body, type) => ({
-  name: body.name,
-  email: body.email,
-  phone: body.phone,
-  company: body.company,
-  subject: body.subject,
-  message: body.message,
-  quantity: body.quantity,
-  productInterest: body.productInterest || body.dosageInterest,
-  businessType: body.businessType,
-  location: body.location,
-  productName: body.productName,
-  productSlug: body.productSlug,
-  type,
-});
+const pickEnquiry = (body, defaultType) => {
+  const allowedTypes = ['contact', 'partner', 'product', 'project'];
+  const type = allowedTypes.includes(body?.type) ? body.type : defaultType;
+  return {
+    name: body.name,
+    email: body.email,
+    phone: body.phone,
+    company: body.company,
+    subject: body.subject,
+    message: body.message,
+    quantity: body.quantity,
+    productInterest: body.productInterest || body.dosageInterest,
+    businessType: body.businessType,
+    location: body.location,
+    productName: body.productName,
+    productSlug: body.productSlug,
+    type,
+  };
+};
 
 export const createEnquiry = async (req, res, next) => {
   try {
     const enquiry = await Enquiry.create(pickEnquiry(req.body, 'contact'));
+    // Fire email notifications asynchronously without blocking HTTP response
+    sendEnquiryEmails(enquiry).catch((err) => {
+      console.error('Email dispatch error on enquiry:', err?.message || err);
+    });
     res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Enquiry submitted successfully' });
   } catch (err) {
     next(err);
@@ -241,6 +317,9 @@ export const createEnquiry = async (req, res, next) => {
 export const createPartnerEnquiry = async (req, res, next) => {
   try {
     const enquiry = await Enquiry.create(pickEnquiry(req.body, 'partner'));
+    sendEnquiryEmails(enquiry).catch((err) => {
+      console.error('Email dispatch error on partner enquiry:', err?.message || err);
+    });
     res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Partner enquiry submitted successfully' });
   } catch (err) {
     next(err);
@@ -250,7 +329,22 @@ export const createPartnerEnquiry = async (req, res, next) => {
 export const createProductEnquiry = async (req, res, next) => {
   try {
     const enquiry = await Enquiry.create(pickEnquiry(req.body, 'product'));
+    sendEnquiryEmails(enquiry).catch((err) => {
+      console.error('Email dispatch error on product enquiry:', err?.message || err);
+    });
     res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Product enquiry submitted successfully' });
+  } catch (err) {
+    next(err);
+  }
+};
+
+export const createProjectEnquiry = async (req, res, next) => {
+  try {
+    const enquiry = await Enquiry.create(pickEnquiry(req.body, 'project'));
+    sendEnquiryEmails(enquiry).catch((err) => {
+      console.error('Email dispatch error on project enquiry:', err?.message || err);
+    });
+    res.status(201).json({ success: true, data: { id: enquiry._id }, message: 'Project enquiry submitted successfully' });
   } catch (err) {
     next(err);
   }
