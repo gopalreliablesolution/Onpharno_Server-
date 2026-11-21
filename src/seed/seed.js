@@ -58,7 +58,10 @@ const seedData = async () => {
 
     console.log('👤 Seeding Admin User...');
     const adminEmail = process.env.ADMIN_EMAIL || 'admin@onpharno.com';
-    const adminPassword = process.env.ADMIN_PASSWORD || 'REDACTED_ADMIN_PASSWORD';
+    const adminPassword = process.env.ADMIN_PASSWORD;
+    if (!adminPassword) {
+      throw new Error('ADMIN_PASSWORD is not set. Add it to your .env file (see .env.example).');
+    }
     const existingAdmin = await User.findOne({ email: adminEmail });
     if (!existingAdmin) {
       await User.create({
