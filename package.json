@@ -5,8 +5,8 @@
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch src/server.js",
-    "start": "node src/server.js",
+    "dev": "node init && node --watch src/server.js",
+    "start": "node init && node src/server.js",
     "seed": "node src/seed/seed.js",
     "uploads:check": "node src/scripts/checkUploads.js",
     "test:api": "node ../qa/api-tests/run.mjs"
