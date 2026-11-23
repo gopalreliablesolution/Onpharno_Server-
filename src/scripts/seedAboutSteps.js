@@ -9,7 +9,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.resolve(__dirname, '../../.env') });
 
-const uri = process.env.MONGO_URI || 'mongodb+srv://REDACTED_DB_USER:REDACTED@cluster0.hwr8pvi.mongodb.net/onpharno?retryWrites=true&w=majority';
+const uri = process.env.MONGO_URI;
+if (!uri) {
+  console.error('MONGO_URI is not set. Add it to your .env file (see .env.example).');
+  process.exit(1);
+}
 
 async function seedAboutSteps() {
   await mongoose.connect(uri);
