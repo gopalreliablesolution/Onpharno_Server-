@@ -10,9 +10,18 @@ const videoSchema = new mongoose.Schema(
     description: {
       type: String,
     },
+    mediaType: {
+      type: String,
+      enum: ['image', 'video'],
+      default: 'video',
+    },
     videoUrl: {
       type: String,
-      required: true,
+      default: '',
+    },
+    videoFile: {
+      type: String,
+      default: '',
     },
     thumbnail: {
       type: String,
