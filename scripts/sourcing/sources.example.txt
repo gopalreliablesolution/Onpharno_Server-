@@ -1,0 +1,7 @@
+# One URL per line. Use PUBLIC FACTUAL sources only (ingredient monographs, fact sheets).
+# Do not add competitor product pages. Obey each site's terms.
+# Examples (verify each is reachable and allowed):
+https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/
+https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/
+https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/

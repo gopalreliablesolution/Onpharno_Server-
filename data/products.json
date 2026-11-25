@@ -1,0 +1,4137 @@
+[
+  {
+    "name": "Multivitamin & Multimineral Tablets",
+    "slug": "multivitamin-and-multimineral-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Daily Wellness",
+    "categories": [
+      "Daily Wellness",
+      "Tablets"
+    ],
+    "shortDescription": "Multivitamin & Multimineral Tablets: a tablets format formulation for the daily wellness range.",
+    "description": "Multivitamin & Multimineral Tablets combines Vitamin C, Vitamin D3, Vitamin B12, Zinc and Magnesium in a tablets format, designed for the daily wellness range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Vitamin C",
+        "strength": "80 mg",
+        "purpose": "immune health"
+      },
+      {
+        "ingredient": "Vitamin D3",
+        "strength": "400 IU",
+        "purpose": "bone health"
+      },
+      {
+        "ingredient": "Vitamin B12",
+        "strength": "2.4 mcg",
+        "purpose": "energy metabolism"
+      },
+      {
+        "ingredient": "Zinc",
+        "strength": "10 mg",
+        "purpose": "normal immune function"
+      },
+      {
+        "ingredient": "Magnesium",
+        "strength": "100 mg",
+        "purpose": "muscle function"
+      }
+    ],
+    "benefits": [
+      "Supports immune health",
+      "Supports bone health",
+      "Supports energy metabolism",
+      "Supports normal immune function"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/multivitamin-and-multimineral-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Multivitamin & Multimineral Tablets | Private Label & Contra",
+      "description": "Multivitamin & Multimineral Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "multivitamin & multimineral tablets, daily wellness, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "B-Complex with Vitamin C Tablets",
+    "slug": "b-complex-with-vitamin-c-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Daily Wellness",
+    "categories": [
+      "Daily Wellness",
+      "Tablets"
+    ],
+    "shortDescription": "B-Complex with Vitamin C Tablets: a tablets format formulation for the daily wellness range.",
+    "description": "B-Complex with Vitamin C Tablets combines Vitamin B1 (Thiamine), Vitamin B2 (Riboflavin), Vitamin B3 (Niacinamide), Vitamin B6, Vitamin B12 and Vitamin C in a tablets format, designed for the daily wellness range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Vitamin B1 (Thiamine)",
+        "strength": "10 mg",
+        "purpose": "energy metabolism"
+      },
+      {
+        "ingredient": "Vitamin B2 (Riboflavin)",
+        "strength": "10 mg",
+        "purpose": "energy metabolism"
+      },
+      {
+        "ingredient": "Vitamin B3 (Niacinamide)",
+        "strength": "45 mg",
+        "purpose": "normal nervous system function"
+      },
+      {
+        "ingredient": "Vitamin B6",
+        "strength": "3 mg",
+        "purpose": "normal protein metabolism"
+      },
+      {
+        "ingredient": "Vitamin B12",
+        "strength": "15 mcg",
+        "purpose": "red blood cell formation"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "150 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports energy metabolism",
+      "Supports normal nervous system function",
+      "Supports normal protein metabolism",
+      "Supports red blood cell formation"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/b-complex-with-vitamin-c-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "B-Complex with Vitamin C Tablets | Private Label & Contract ",
+      "description": "B-Complex with Vitamin C Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "b-complex with vitamin c tablets, daily wellness, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Vitamin D3 60,000 IU Liquid-Filled Capsules",
+    "slug": "vitamin-d3-60-000-iu-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Daily Wellness",
+    "categories": [
+      "Daily Wellness",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Vitamin D3 60,000 IU Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the daily wellness range.",
+    "description": "Vitamin D3 60,000 IU Liquid-Filled Capsules combines Cholecalciferol (Vitamin D3) in a liquid-filled hard capsules format, designed for the daily wellness range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Cholecalciferol (Vitamin D3)",
+        "strength": "60,000 IU",
+        "purpose": "bone and muscle health"
+      }
+    ],
+    "benefits": [
+      "Supports bone and muscle health"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/vitamin-d3-60-000-iu-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "High-dose weekly format: confirm permitted dose and labelling for each market.",
+    "seo": {
+      "title": "Vitamin D3 60,000 IU Liquid-Filled Capsules | Private Label ",
+      "description": "Vitamin D3 60,000 IU Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "vitamin d3 60,000 iu liquid-filled capsules, daily wellness, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Omega-3 Fish Oil Softgels",
+    "slug": "omega-3-fish-oil-softgels",
+    "dosageForm": "Softgels",
+    "healthCategory": "Daily Wellness",
+    "categories": [
+      "Daily Wellness",
+      "Softgels"
+    ],
+    "shortDescription": "Omega-3 Fish Oil Softgels: a softgels format formulation for the daily wellness range.",
+    "description": "Omega-3 Fish Oil Softgels combines Fish oil concentrate, EPA and DHA in a softgels format, designed for the daily wellness range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Fish oil concentrate",
+        "strength": "1000 mg",
+        "purpose": "heart health"
+      },
+      {
+        "ingredient": "EPA",
+        "strength": "180 mg",
+        "purpose": "heart health"
+      },
+      {
+        "ingredient": "DHA",
+        "strength": "120 mg",
+        "purpose": "brain and eye health"
+      }
+    ],
+    "benefits": [
+      "Supports heart health",
+      "Supports brain and eye health"
+    ],
+    "packaging": "HDPE bottle 30/60 softgels; blister packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/omega-3-fish-oil-softgels.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Omega-3 Fish Oil Softgels | Private Label & Contract Manufac",
+      "description": "Omega-3 Fish Oil Softgels in softgels format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "omega-3 fish oil softgels, daily wellness, softgels, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Iron, Folic Acid & B12 Tablets",
+    "slug": "iron-folic-acid-and-b12-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Daily Wellness",
+    "categories": [
+      "Daily Wellness",
+      "Tablets"
+    ],
+    "shortDescription": "Iron, Folic Acid & B12 Tablets: a tablets format formulation for the daily wellness range.",
+    "description": "Iron, Folic Acid & B12 Tablets combines Elemental iron (as iron bisglycinate), Folic acid and Vitamin B12 in a tablets format, designed for the daily wellness range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Elemental iron (as iron bisglycinate)",
+        "strength": "30 mg",
+        "purpose": "healthy blood formation"
+      },
+      {
+        "ingredient": "Folic acid",
+        "strength": "400 mcg",
+        "purpose": "red blood cell formation"
+      },
+      {
+        "ingredient": "Vitamin B12",
+        "strength": "5 mcg",
+        "purpose": "energy metabolism"
+      }
+    ],
+    "benefits": [
+      "Supports healthy blood formation",
+      "Supports red blood cell formation",
+      "Supports energy metabolism"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/iron-folic-acid-and-b12-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Iron, Folic Acid & B12 Tablets | Private Label & Contract Ma",
+      "description": "Iron, Folic Acid & B12 Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "iron, folic acid & b12 tablets, daily wellness, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Electrolyte Energy Sachets",
+    "slug": "electrolyte-energy-sachets",
+    "dosageForm": "Sachets",
+    "healthCategory": "Daily Wellness",
+    "categories": [
+      "Daily Wellness",
+      "Sachets"
+    ],
+    "shortDescription": "Electrolyte Energy Sachets: a sachets format formulation for the daily wellness range.",
+    "description": "Electrolyte Energy Sachets combines Sodium, Potassium and Vitamin C in a sachets format, designed for the daily wellness range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Sodium",
+        "strength": "200 mg",
+        "purpose": "hydration balance"
+      },
+      {
+        "ingredient": "Potassium",
+        "strength": "120 mg",
+        "purpose": "hydration balance"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "60 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports hydration balance",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "Single-serve sachets, carton of 10/15/30",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/electrolyte-energy-sachets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Electrolyte Energy Sachets | Private Label & Contract Manufa",
+      "description": "Electrolyte Energy Sachets in sachets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "electrolyte energy sachets, daily wellness, sachets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Shilajit Extract Capsules",
+    "slug": "shilajit-extract-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Men's Health",
+    "categories": [
+      "Men's Health",
+      "Capsules"
+    ],
+    "shortDescription": "Shilajit Extract Capsules: a capsules format formulation for the men's health range.",
+    "description": "Shilajit Extract Capsules combines Shilajit extract (standardized fulvic acid) in a capsules format, designed for the men's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Shilajit extract (standardized fulvic acid)",
+        "strength": "250 mg",
+        "purpose": "vitality and stamina"
+      }
+    ],
+    "benefits": [
+      "Supports vitality and stamina"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/shilajit-extract-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Shilajit Extract Capsules | Private Label & Contract Manufac",
+      "description": "Shilajit Extract Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "shilajit extract capsules, men's health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Ashwagandha & Safed Musli Capsules",
+    "slug": "ashwagandha-and-safed-musli-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Men's Health",
+    "categories": [
+      "Men's Health",
+      "Capsules"
+    ],
+    "shortDescription": "Ashwagandha & Safed Musli Capsules: a capsules format formulation for the men's health range.",
+    "description": "Ashwagandha & Safed Musli Capsules combines Ashwagandha root extract and Safed musli extract in a capsules format, designed for the men's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Ashwagandha root extract",
+        "strength": "300 mg",
+        "purpose": "stress resilience"
+      },
+      {
+        "ingredient": "Safed musli extract",
+        "strength": "300 mg",
+        "purpose": "vitality and stamina"
+      }
+    ],
+    "benefits": [
+      "Supports stress resilience",
+      "Supports vitality and stamina"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/ashwagandha-and-safed-musli-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Ashwagandha & Safed Musli Capsules | Private Label & Contrac",
+      "description": "Ashwagandha & Safed Musli Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "ashwagandha & safed musli capsules, men's health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Zinc, Selenium & Lycopene Softgels",
+    "slug": "zinc-selenium-and-lycopene-softgels",
+    "dosageForm": "Softgels",
+    "healthCategory": "Men's Health",
+    "categories": [
+      "Men's Health",
+      "Softgels"
+    ],
+    "shortDescription": "Zinc, Selenium & Lycopene Softgels: a softgels format formulation for the men's health range.",
+    "description": "Zinc, Selenium & Lycopene Softgels combines Zinc, Selenium and Lycopene in a softgels format, designed for the men's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Zinc",
+        "strength": "15 mg",
+        "purpose": "men's wellness"
+      },
+      {
+        "ingredient": "Selenium",
+        "strength": "55 mcg",
+        "purpose": "antioxidant protection"
+      },
+      {
+        "ingredient": "Lycopene",
+        "strength": "10 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports men's wellness",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "HDPE bottle 30/60 softgels; blister packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/zinc-selenium-and-lycopene-softgels.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Zinc, Selenium & Lycopene Softgels | Private Label & Contrac",
+      "description": "Zinc, Selenium & Lycopene Softgels in softgels format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "zinc, selenium & lycopene softgels, men's health, softgels, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Saw Palmetto Extract Capsules",
+    "slug": "saw-palmetto-extract-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Men's Health",
+    "categories": [
+      "Men's Health",
+      "Capsules"
+    ],
+    "shortDescription": "Saw Palmetto Extract Capsules: a capsules format formulation for the men's health range.",
+    "description": "Saw Palmetto Extract Capsules combines Saw palmetto extract in a capsules format, designed for the men's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Saw palmetto extract",
+        "strength": "320 mg",
+        "purpose": "prostate wellness"
+      }
+    ],
+    "benefits": [
+      "Supports prostate wellness"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/saw-palmetto-extract-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Claim-sensitive: confirm permitted wording per market.",
+    "seo": {
+      "title": "Saw Palmetto Extract Capsules | Private Label & Contract Man",
+      "description": "Saw Palmetto Extract Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "saw palmetto extract capsules, men's health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Tribulus Terrestris Tablets",
+    "slug": "tribulus-terrestris-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Men's Health",
+    "categories": [
+      "Men's Health",
+      "Tablets"
+    ],
+    "shortDescription": "Tribulus Terrestris Tablets: a tablets format formulation for the men's health range.",
+    "description": "Tribulus Terrestris Tablets combines Tribulus terrestris extract (40% saponins) in a tablets format, designed for the men's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Tribulus terrestris extract (40% saponins)",
+        "strength": "500 mg",
+        "purpose": "stamina and performance"
+      }
+    ],
+    "benefits": [
+      "Supports stamina and performance"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/tribulus-terrestris-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Tribulus Terrestris Tablets | Private Label & Contract Manuf",
+      "description": "Tribulus Terrestris Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "tribulus terrestris tablets, men's health, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Men's Daily Multivitamin Gummies",
+    "slug": "men-s-daily-multivitamin-gummies",
+    "dosageForm": "Gummies",
+    "healthCategory": "Men's Health",
+    "categories": [
+      "Men's Health",
+      "Gummies"
+    ],
+    "shortDescription": "Men's Daily Multivitamin Gummies: a gummies format formulation for the men's health range.",
+    "description": "Men's Daily Multivitamin Gummies combines Vitamin D3, Zinc, Vitamin B6 and Vitamin B12 in a gummies format, designed for the men's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Vitamin D3",
+        "strength": "400 IU",
+        "purpose": "bone health"
+      },
+      {
+        "ingredient": "Zinc",
+        "strength": "8 mg",
+        "purpose": "normal immune function"
+      },
+      {
+        "ingredient": "Vitamin B6",
+        "strength": "1.7 mg",
+        "purpose": "energy metabolism"
+      },
+      {
+        "ingredient": "Vitamin B12",
+        "strength": "2.4 mcg",
+        "purpose": "energy metabolism"
+      }
+    ],
+    "benefits": [
+      "Supports bone health",
+      "Supports normal immune function",
+      "Supports energy metabolism"
+    ],
+    "packaging": "PET jar 30/60 gummies; pouch packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/men-s-daily-multivitamin-gummies.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Men's Daily Multivitamin Gummies | Private Label & Contract ",
+      "description": "Men's Daily Multivitamin Gummies in gummies format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "men's daily multivitamin gummies, men's health, gummies, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Shatavari Extract Capsules",
+    "slug": "shatavari-extract-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Women's Health",
+    "categories": [
+      "Women's Health",
+      "Capsules"
+    ],
+    "shortDescription": "Shatavari Extract Capsules: a capsules format formulation for the women's health range.",
+    "description": "Shatavari Extract Capsules combines Shatavari root extract in a capsules format, designed for the women's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Shatavari root extract",
+        "strength": "500 mg",
+        "purpose": "women's wellness"
+      }
+    ],
+    "benefits": [
+      "Supports women's wellness"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/shatavari-extract-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Shatavari Extract Capsules | Private Label & Contract Manufa",
+      "description": "Shatavari Extract Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "shatavari extract capsules, women's health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Iron Bisglycinate & Vitamin C Capsules",
+    "slug": "iron-bisglycinate-and-vitamin-c-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Women's Health",
+    "categories": [
+      "Women's Health",
+      "Capsules"
+    ],
+    "shortDescription": "Iron Bisglycinate & Vitamin C Capsules: a capsules format formulation for the women's health range.",
+    "description": "Iron Bisglycinate & Vitamin C Capsules combines Iron (as bisglycinate) and Vitamin C in a capsules format, designed for the women's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Iron (as bisglycinate)",
+        "strength": "30 mg",
+        "purpose": "healthy blood formation"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "80 mg",
+        "purpose": "iron absorption support"
+      }
+    ],
+    "benefits": [
+      "Supports healthy blood formation",
+      "Supports iron absorption support"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/iron-bisglycinate-and-vitamin-c-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Iron Bisglycinate & Vitamin C Capsules | Private Label & Con",
+      "description": "Iron Bisglycinate & Vitamin C Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "iron bisglycinate & vitamin c capsules, women's health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Myo-Inositol & D-Chiro Inositol Sachets",
+    "slug": "myo-inositol-and-d-chiro-inositol-sachets",
+    "dosageForm": "Sachets",
+    "healthCategory": "Women's Health",
+    "categories": [
+      "Women's Health",
+      "Sachets"
+    ],
+    "shortDescription": "Myo-Inositol & D-Chiro Inositol Sachets: a sachets format formulation for the women's health range.",
+    "description": "Myo-Inositol & D-Chiro Inositol Sachets combines Myo-inositol and D-chiro inositol in a sachets format, designed for the women's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Myo-inositol",
+        "strength": "2000 mg",
+        "purpose": "hormonal balance wellness"
+      },
+      {
+        "ingredient": "D-chiro inositol",
+        "strength": "50 mg",
+        "purpose": "hormonal balance wellness"
+      }
+    ],
+    "benefits": [
+      "Supports hormonal balance wellness"
+    ],
+    "packaging": "Single-serve sachets, carton of 10/15/30",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/myo-inositol-and-d-chiro-inositol-sachets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Claim-sensitive: avoid condition-specific claims.",
+    "seo": {
+      "title": "Myo-Inositol & D-Chiro Inositol Sachets | Private Label & Co",
+      "description": "Myo-Inositol & D-Chiro Inositol Sachets in sachets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "myo-inositol & d-chiro inositol sachets, women's health, sachets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Evening Primrose Oil Softgels",
+    "slug": "evening-primrose-oil-softgels",
+    "dosageForm": "Softgels",
+    "healthCategory": "Women's Health",
+    "categories": [
+      "Women's Health",
+      "Softgels"
+    ],
+    "shortDescription": "Evening Primrose Oil Softgels: a softgels format formulation for the women's health range.",
+    "description": "Evening Primrose Oil Softgels combines Evening primrose oil (9% GLA) in a softgels format, designed for the women's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Evening primrose oil (9% GLA)",
+        "strength": "1000 mg",
+        "purpose": "women's wellness"
+      }
+    ],
+    "benefits": [
+      "Supports women's wellness"
+    ],
+    "packaging": "HDPE bottle 30/60 softgels; blister packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/evening-primrose-oil-softgels.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Evening Primrose Oil Softgels | Private Label & Contract Man",
+      "description": "Evening Primrose Oil Softgels in softgels format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "evening primrose oil softgels, women's health, softgels, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Prenatal Multivitamin Softgels",
+    "slug": "prenatal-multivitamin-softgels",
+    "dosageForm": "Softgels",
+    "healthCategory": "Women's Health",
+    "categories": [
+      "Women's Health",
+      "Softgels"
+    ],
+    "shortDescription": "Prenatal Multivitamin Softgels: a softgels format formulation for the women's health range.",
+    "description": "Prenatal Multivitamin Softgels combines Folic acid, Iron, DHA and Vitamin D3 in a softgels format, designed for the women's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Folic acid",
+        "strength": "400 mcg",
+        "purpose": "prenatal nutrition"
+      },
+      {
+        "ingredient": "Iron",
+        "strength": "27 mg",
+        "purpose": "healthy blood formation"
+      },
+      {
+        "ingredient": "DHA",
+        "strength": "200 mg",
+        "purpose": "brain and eye development"
+      },
+      {
+        "ingredient": "Vitamin D3",
+        "strength": "400 IU",
+        "purpose": "bone health"
+      }
+    ],
+    "benefits": [
+      "Supports prenatal nutrition",
+      "Supports healthy blood formation",
+      "Supports brain and eye development",
+      "Supports bone health"
+    ],
+    "packaging": "HDPE bottle 30/60 softgels; blister packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/prenatal-multivitamin-softgels.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Prenatal products: strict regulatory and labelling review required.",
+    "seo": {
+      "title": "Prenatal Multivitamin Softgels | Private Label & Contract Ma",
+      "description": "Prenatal Multivitamin Softgels in softgels format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "prenatal multivitamin softgels, women's health, softgels, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Cranberry & D-Mannose Capsules",
+    "slug": "cranberry-and-d-mannose-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Women's Health",
+    "categories": [
+      "Women's Health",
+      "Capsules"
+    ],
+    "shortDescription": "Cranberry & D-Mannose Capsules: a capsules format formulation for the women's health range.",
+    "description": "Cranberry & D-Mannose Capsules combines Cranberry extract and D-mannose in a capsules format, designed for the women's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Cranberry extract",
+        "strength": "500 mg",
+        "purpose": "urinary tract health"
+      },
+      {
+        "ingredient": "D-mannose",
+        "strength": "500 mg",
+        "purpose": "urinary tract health"
+      }
+    ],
+    "benefits": [
+      "Supports urinary tract health"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/cranberry-and-d-mannose-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Cranberry & D-Mannose Capsules | Private Label & Contract Ma",
+      "description": "Cranberry & D-Mannose Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "cranberry & d-mannose capsules, women's health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Hydrolyzed Collagen Peptides Sachets",
+    "slug": "hydrolyzed-collagen-peptides-sachets",
+    "dosageForm": "Sachets",
+    "healthCategory": "Beauty Nutrition",
+    "categories": [
+      "Beauty Nutrition",
+      "Sachets"
+    ],
+    "shortDescription": "Hydrolyzed Collagen Peptides Sachets: a sachets format formulation for the beauty nutrition range.",
+    "description": "Hydrolyzed Collagen Peptides Sachets combines Hydrolyzed collagen peptides and Vitamin C in a sachets format, designed for the beauty nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Hydrolyzed collagen peptides",
+        "strength": "5000 mg",
+        "purpose": "skin elasticity"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "40 mg",
+        "purpose": "collagen formation"
+      }
+    ],
+    "benefits": [
+      "Supports skin elasticity",
+      "Supports collagen formation"
+    ],
+    "packaging": "Single-serve sachets, carton of 10/15/30",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/hydrolyzed-collagen-peptides-sachets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Hydrolyzed Collagen Peptides Sachets | Private Label & Contr",
+      "description": "Hydrolyzed Collagen Peptides Sachets in sachets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "hydrolyzed collagen peptides sachets, beauty nutrition, sachets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Biotin 10,000 mcg Tablets",
+    "slug": "biotin-10-000-mcg-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Beauty Nutrition",
+    "categories": [
+      "Beauty Nutrition",
+      "Tablets"
+    ],
+    "shortDescription": "Biotin 10,000 mcg Tablets: a tablets format formulation for the beauty nutrition range.",
+    "description": "Biotin 10,000 mcg Tablets combines Biotin in a tablets format, designed for the beauty nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Biotin",
+        "strength": "10,000 mcg",
+        "purpose": "hair, skin and nail health"
+      }
+    ],
+    "benefits": [
+      "Supports hair, skin and nail health"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/biotin-10-000-mcg-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Biotin 10,000 mcg Tablets | Private Label & Contract Manufac",
+      "description": "Biotin 10,000 mcg Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "biotin 10,000 mcg tablets, beauty nutrition, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Hyaluronic Acid & Vitamin C Capsules",
+    "slug": "hyaluronic-acid-and-vitamin-c-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Beauty Nutrition",
+    "categories": [
+      "Beauty Nutrition",
+      "Capsules"
+    ],
+    "shortDescription": "Hyaluronic Acid & Vitamin C Capsules: a capsules format formulation for the beauty nutrition range.",
+    "description": "Hyaluronic Acid & Vitamin C Capsules combines Hyaluronic acid and Vitamin C in a capsules format, designed for the beauty nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Hyaluronic acid",
+        "strength": "100 mg",
+        "purpose": "skin hydration"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "100 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports skin hydration",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/hyaluronic-acid-and-vitamin-c-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Hyaluronic Acid & Vitamin C Capsules | Private Label & Contr",
+      "description": "Hyaluronic Acid & Vitamin C Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "hyaluronic acid & vitamin c capsules, beauty nutrition, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Glutathione & Vitamin C Effervescent Tablets",
+    "slug": "glutathione-and-vitamin-c-effervescent-tablets",
+    "dosageForm": "Effervescent",
+    "healthCategory": "Beauty Nutrition",
+    "categories": [
+      "Beauty Nutrition",
+      "Effervescent"
+    ],
+    "shortDescription": "Glutathione & Vitamin C Effervescent Tablets: a effervescent format formulation for the beauty nutrition range.",
+    "description": "Glutathione & Vitamin C Effervescent Tablets combines Reduced glutathione and Vitamin C in a effervescent format, designed for the beauty nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Reduced glutathione",
+        "strength": "250 mg",
+        "purpose": "antioxidant support"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "500 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports antioxidant support",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "Moisture-proof tube of 10/20 tablets; strip packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/glutathione-and-vitamin-c-effervescent-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Avoid skin-lightening claims; not permitted in many markets.",
+    "seo": {
+      "title": "Glutathione & Vitamin C Effervescent Tablets | Private Label",
+      "description": "Glutathione & Vitamin C Effervescent Tablets in effervescent format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "glutathione & vitamin c effervescent tablets, beauty nutrition, effervescent, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Hair, Skin & Nails Gummies",
+    "slug": "hair-skin-and-nails-gummies",
+    "dosageForm": "Gummies",
+    "healthCategory": "Beauty Nutrition",
+    "categories": [
+      "Beauty Nutrition",
+      "Gummies"
+    ],
+    "shortDescription": "Hair, Skin & Nails Gummies: a gummies format formulation for the beauty nutrition range.",
+    "description": "Hair, Skin & Nails Gummies combines Biotin, Zinc and Vitamin C in a gummies format, designed for the beauty nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Biotin",
+        "strength": "5000 mcg",
+        "purpose": "hair, skin and nail health"
+      },
+      {
+        "ingredient": "Zinc",
+        "strength": "5 mg",
+        "purpose": "normal skin function"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "40 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports hair, skin and nail health",
+      "Supports normal skin function",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "PET jar 30/60 gummies; pouch packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/hair-skin-and-nails-gummies.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Hair, Skin & Nails Gummies | Private Label & Contract Manufa",
+      "description": "Hair, Skin & Nails Gummies in gummies format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "hair, skin & nails gummies, beauty nutrition, gummies, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Marine Collagen Oral Shots",
+    "slug": "marine-collagen-oral-shots",
+    "dosageForm": "Oral Shots",
+    "healthCategory": "Beauty Nutrition",
+    "categories": [
+      "Beauty Nutrition",
+      "Oral Shots"
+    ],
+    "shortDescription": "Marine Collagen Oral Shots: a oral shots format formulation for the beauty nutrition range.",
+    "description": "Marine Collagen Oral Shots combines Marine collagen peptides, Hyaluronic acid and Vitamin C in a oral shots format, designed for the beauty nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Marine collagen peptides",
+        "strength": "5000 mg",
+        "purpose": "skin elasticity"
+      },
+      {
+        "ingredient": "Hyaluronic acid",
+        "strength": "50 mg",
+        "purpose": "skin hydration"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "60 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports skin elasticity",
+      "Supports skin hydration",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "10-30 ml shot bottles or ampoules; carton of 10/30",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/marine-collagen-oral-shots.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Marine Collagen Oral Shots | Private Label & Contract Manufa",
+      "description": "Marine Collagen Oral Shots in oral shots format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "marine collagen oral shots, beauty nutrition, oral shots, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Vitamin E 400 IU Liquid-Filled Capsules",
+    "slug": "vitamin-e-400-iu-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Beauty Nutrition",
+    "categories": [
+      "Beauty Nutrition",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Vitamin E 400 IU Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the beauty nutrition range.",
+    "description": "Vitamin E 400 IU Liquid-Filled Capsules combines d-Alpha tocopherol (Vitamin E) in a liquid-filled hard capsules format, designed for the beauty nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "d-Alpha tocopherol (Vitamin E)",
+        "strength": "400 IU",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports antioxidant protection"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/vitamin-e-400-iu-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Vitamin E 400 IU Liquid-Filled Capsules | Private Label & Co",
+      "description": "Vitamin E 400 IU Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "vitamin e 400 iu liquid-filled capsules, beauty nutrition, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Creatine Monohydrate Powder",
+    "slug": "creatine-monohydrate-powder",
+    "dosageForm": "Powders",
+    "healthCategory": "Sports Nutrition",
+    "categories": [
+      "Sports Nutrition",
+      "Powders"
+    ],
+    "shortDescription": "Creatine Monohydrate Powder: a powders format formulation for the sports nutrition range.",
+    "description": "Creatine Monohydrate Powder combines Creatine monohydrate in a powders format, designed for the sports nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Creatine monohydrate",
+        "strength": "5 g per serving",
+        "purpose": "strength and performance"
+      }
+    ],
+    "benefits": [
+      "Supports strength and performance"
+    ],
+    "packaging": "Tub or jar 200 g to 1 kg; stand-up pouch; sachets",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/creatine-monohydrate-powder.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Creatine Monohydrate Powder | Private Label & Contract Manuf",
+      "description": "Creatine Monohydrate Powder in powders format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "creatine monohydrate powder, sports nutrition, powders, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "BCAA 2:1:1 Powder",
+    "slug": "bcaa-2-1-1-powder",
+    "dosageForm": "Powders",
+    "healthCategory": "Sports Nutrition",
+    "categories": [
+      "Sports Nutrition",
+      "Powders"
+    ],
+    "shortDescription": "BCAA 2:1:1 Powder: a powders format formulation for the sports nutrition range.",
+    "description": "BCAA 2:1:1 Powder combines BCAA (leucine:isoleucine:valine 2:1:1) in a powders format, designed for the sports nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "BCAA (leucine:isoleucine:valine 2:1:1)",
+        "strength": "5 g per serving",
+        "purpose": "muscle recovery"
+      }
+    ],
+    "benefits": [
+      "Supports muscle recovery"
+    ],
+    "packaging": "Tub or jar 200 g to 1 kg; stand-up pouch; sachets",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/bcaa-2-1-1-powder.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "BCAA 2:1:1 Powder | Private Label & Contract Manufacturing |",
+      "description": "BCAA 2:1:1 Powder in powders format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "bcaa 2:1:1 powder, sports nutrition, powders, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Whey Protein Isolate Powder",
+    "slug": "whey-protein-isolate-powder",
+    "dosageForm": "Powders",
+    "healthCategory": "Sports Nutrition",
+    "categories": [
+      "Sports Nutrition",
+      "Powders"
+    ],
+    "shortDescription": "Whey Protein Isolate Powder: a powders format formulation for the sports nutrition range.",
+    "description": "Whey Protein Isolate Powder combines Whey protein isolate in a powders format, designed for the sports nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Whey protein isolate",
+        "strength": "approx. 24 g protein per 30 g serving",
+        "purpose": "muscle growth and repair"
+      }
+    ],
+    "benefits": [
+      "Supports muscle growth and repair"
+    ],
+    "packaging": "Tub or jar 200 g to 1 kg; stand-up pouch; sachets",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/whey-protein-isolate-powder.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Whey Protein Isolate Powder | Private Label & Contract Manuf",
+      "description": "Whey Protein Isolate Powder in powders format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "whey protein isolate powder, sports nutrition, powders, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Electrolyte Hydration Effervescent Tablets",
+    "slug": "electrolyte-hydration-effervescent-tablets",
+    "dosageForm": "Effervescent",
+    "healthCategory": "Sports Nutrition",
+    "categories": [
+      "Sports Nutrition",
+      "Effervescent"
+    ],
+    "shortDescription": "Electrolyte Hydration Effervescent Tablets: a effervescent format formulation for the sports nutrition range.",
+    "description": "Electrolyte Hydration Effervescent Tablets combines Sodium, Potassium, Magnesium and Vitamin C in a effervescent format, designed for the sports nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Sodium",
+        "strength": "300 mg",
+        "purpose": "hydration balance"
+      },
+      {
+        "ingredient": "Potassium",
+        "strength": "150 mg",
+        "purpose": "hydration balance"
+      },
+      {
+        "ingredient": "Magnesium",
+        "strength": "40 mg",
+        "purpose": "muscle function"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "100 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports hydration balance",
+      "Supports muscle function",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "Moisture-proof tube of 10/20 tablets; strip packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/electrolyte-hydration-effervescent-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Electrolyte Hydration Effervescent Tablets | Private Label &",
+      "description": "Electrolyte Hydration Effervescent Tablets in effervescent format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "electrolyte hydration effervescent tablets, sports nutrition, effervescent, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "L-Glutamine Powder",
+    "slug": "l-glutamine-powder",
+    "dosageForm": "Powders",
+    "healthCategory": "Sports Nutrition",
+    "categories": [
+      "Sports Nutrition",
+      "Powders"
+    ],
+    "shortDescription": "L-Glutamine Powder: a powders format formulation for the sports nutrition range.",
+    "description": "L-Glutamine Powder combines L-glutamine in a powders format, designed for the sports nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "L-glutamine",
+        "strength": "5 g per serving",
+        "purpose": "muscle recovery"
+      }
+    ],
+    "benefits": [
+      "Supports muscle recovery"
+    ],
+    "packaging": "Tub or jar 200 g to 1 kg; stand-up pouch; sachets",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/l-glutamine-powder.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "L-Glutamine Powder | Private Label & Contract Manufacturing ",
+      "description": "L-Glutamine Powder in powders format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "l-glutamine powder, sports nutrition, powders, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Beta-Alanine & Citrulline Malate Capsules",
+    "slug": "beta-alanine-and-citrulline-malate-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Sports Nutrition",
+    "categories": [
+      "Sports Nutrition",
+      "Capsules"
+    ],
+    "shortDescription": "Beta-Alanine & Citrulline Malate Capsules: a capsules format formulation for the sports nutrition range.",
+    "description": "Beta-Alanine & Citrulline Malate Capsules combines Beta-alanine and L-citrulline malate in a capsules format, designed for the sports nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Beta-alanine",
+        "strength": "800 mg",
+        "purpose": "endurance"
+      },
+      {
+        "ingredient": "L-citrulline malate",
+        "strength": "1000 mg",
+        "purpose": "exercise performance"
+      }
+    ],
+    "benefits": [
+      "Supports endurance",
+      "Supports exercise performance"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/beta-alanine-and-citrulline-malate-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Beta-Alanine & Citrulline Malate Capsules | Private Label & ",
+      "description": "Beta-Alanine & Citrulline Malate Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "beta-alanine & citrulline malate capsules, sports nutrition, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Coenzyme Q10 100 mg Liquid-Filled Capsules",
+    "slug": "coenzyme-q10-100-mg-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Healthy Ageing",
+    "categories": [
+      "Healthy Ageing",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Coenzyme Q10 100 mg Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the healthy ageing range.",
+    "description": "Coenzyme Q10 100 mg Liquid-Filled Capsules combines Coenzyme Q10 (ubiquinone) in a liquid-filled hard capsules format, designed for the healthy ageing range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Coenzyme Q10 (ubiquinone)",
+        "strength": "100 mg",
+        "purpose": "cellular energy"
+      }
+    ],
+    "benefits": [
+      "Supports cellular energy"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/coenzyme-q10-100-mg-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Coenzyme Q10 100 mg Liquid-Filled Capsules | Private Label &",
+      "description": "Coenzyme Q10 100 mg Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "coenzyme q10 100 mg liquid-filled capsules, healthy ageing, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Resveratrol Capsules",
+    "slug": "resveratrol-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Healthy Ageing",
+    "categories": [
+      "Healthy Ageing",
+      "Capsules"
+    ],
+    "shortDescription": "Resveratrol Capsules: a capsules format formulation for the healthy ageing range.",
+    "description": "Resveratrol Capsules combines Trans-resveratrol in a capsules format, designed for the healthy ageing range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Trans-resveratrol",
+        "strength": "100 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports antioxidant protection"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/resveratrol-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Resveratrol Capsules | Private Label & Contract Manufacturin",
+      "description": "Resveratrol Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "resveratrol capsules, healthy ageing, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Lutein & Zeaxanthin Softgels",
+    "slug": "lutein-and-zeaxanthin-softgels",
+    "dosageForm": "Softgels",
+    "healthCategory": "Healthy Ageing",
+    "categories": [
+      "Healthy Ageing",
+      "Softgels"
+    ],
+    "shortDescription": "Lutein & Zeaxanthin Softgels: a softgels format formulation for the healthy ageing range.",
+    "description": "Lutein & Zeaxanthin Softgels combines Lutein and Zeaxanthin in a softgels format, designed for the healthy ageing range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Lutein",
+        "strength": "10 mg",
+        "purpose": "eye health"
+      },
+      {
+        "ingredient": "Zeaxanthin",
+        "strength": "2 mg",
+        "purpose": "eye health"
+      }
+    ],
+    "benefits": [
+      "Supports eye health"
+    ],
+    "packaging": "HDPE bottle 30/60 softgels; blister packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/lutein-and-zeaxanthin-softgels.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Lutein & Zeaxanthin Softgels | Private Label & Contract Manu",
+      "description": "Lutein & Zeaxanthin Softgels in softgels format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "lutein & zeaxanthin softgels, healthy ageing, softgels, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Methylcobalamin 1500 mcg Tablets",
+    "slug": "methylcobalamin-1500-mcg-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Healthy Ageing",
+    "categories": [
+      "Healthy Ageing",
+      "Tablets"
+    ],
+    "shortDescription": "Methylcobalamin 1500 mcg Tablets: a tablets format formulation for the healthy ageing range.",
+    "description": "Methylcobalamin 1500 mcg Tablets combines Methylcobalamin (Vitamin B12) in a tablets format, designed for the healthy ageing range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Methylcobalamin (Vitamin B12)",
+        "strength": "1500 mcg",
+        "purpose": "nervous system health"
+      }
+    ],
+    "benefits": [
+      "Supports nervous system health"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/methylcobalamin-1500-mcg-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Methylcobalamin 1500 mcg Tablets | Private Label & Contract ",
+      "description": "Methylcobalamin 1500 mcg Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "methylcobalamin 1500 mcg tablets, healthy ageing, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Senior Multivitamin 50+ Tablets",
+    "slug": "senior-multivitamin-50plus-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Healthy Ageing",
+    "categories": [
+      "Healthy Ageing",
+      "Tablets"
+    ],
+    "shortDescription": "Senior Multivitamin 50+ Tablets: a tablets format formulation for the healthy ageing range.",
+    "description": "Senior Multivitamin 50+ Tablets combines Vitamin D3, Vitamin B12, Calcium and Zinc in a tablets format, designed for the healthy ageing range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Vitamin D3",
+        "strength": "800 IU",
+        "purpose": "bone health"
+      },
+      {
+        "ingredient": "Vitamin B12",
+        "strength": "25 mcg",
+        "purpose": "energy metabolism"
+      },
+      {
+        "ingredient": "Calcium",
+        "strength": "200 mg",
+        "purpose": "bone health"
+      },
+      {
+        "ingredient": "Zinc",
+        "strength": "10 mg",
+        "purpose": "normal immune function"
+      }
+    ],
+    "benefits": [
+      "Supports bone health",
+      "Supports energy metabolism",
+      "Supports normal immune function"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/senior-multivitamin-50plus-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Senior Multivitamin 50+ Tablets | Private Label & Contract M",
+      "description": "Senior Multivitamin 50+ Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "senior multivitamin 50+ tablets, healthy ageing, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Alpha Lipoic Acid & Acetyl-L-Carnitine Capsules",
+    "slug": "alpha-lipoic-acid-and-acetyl-l-carnitine-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Healthy Ageing",
+    "categories": [
+      "Healthy Ageing",
+      "Capsules"
+    ],
+    "shortDescription": "Alpha Lipoic Acid & Acetyl-L-Carnitine Capsules: a capsules format formulation for the healthy ageing range.",
+    "description": "Alpha Lipoic Acid & Acetyl-L-Carnitine Capsules combines Alpha lipoic acid and Acetyl-L-carnitine in a capsules format, designed for the healthy ageing range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Alpha lipoic acid",
+        "strength": "200 mg",
+        "purpose": "antioxidant protection"
+      },
+      {
+        "ingredient": "Acetyl-L-carnitine",
+        "strength": "500 mg",
+        "purpose": "cellular energy"
+      }
+    ],
+    "benefits": [
+      "Supports antioxidant protection",
+      "Supports cellular energy"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/alpha-lipoic-acid-and-acetyl-l-carnitine-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Alpha Lipoic Acid & Acetyl-L-Carnitine Capsules | Private La",
+      "description": "Alpha Lipoic Acid & Acetyl-L-Carnitine Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "alpha lipoic acid & acetyl-l-carnitine capsules, healthy ageing, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Multi-Strain Probiotic 10 Billion CFU Capsules",
+    "slug": "multi-strain-probiotic-10-billion-cfu-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Gut Health",
+    "categories": [
+      "Gut Health",
+      "Capsules"
+    ],
+    "shortDescription": "Multi-Strain Probiotic 10 Billion CFU Capsules: a capsules format formulation for the gut health range.",
+    "description": "Multi-Strain Probiotic 10 Billion CFU Capsules combines Probiotic blend (Lactobacillus and Bifidobacterium strains) in a capsules format, designed for the gut health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Probiotic blend (Lactobacillus and Bifidobacterium strains)",
+        "strength": "10 billion CFU",
+        "purpose": "gut microbiome balance"
+      }
+    ],
+    "benefits": [
+      "Supports gut microbiome balance"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/multi-strain-probiotic-10-billion-cfu-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Multi-Strain Probiotic 10 Billion CFU Capsules | Private Lab",
+      "description": "Multi-Strain Probiotic 10 Billion CFU Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "multi-strain probiotic 10 billion cfu capsules, gut health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Prebiotic Inulin Sachets",
+    "slug": "prebiotic-inulin-sachets",
+    "dosageForm": "Sachets",
+    "healthCategory": "Gut Health",
+    "categories": [
+      "Gut Health",
+      "Sachets"
+    ],
+    "shortDescription": "Prebiotic Inulin Sachets: a sachets format formulation for the gut health range.",
+    "description": "Prebiotic Inulin Sachets combines Inulin (chicory root fibre) in a sachets format, designed for the gut health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Inulin (chicory root fibre)",
+        "strength": "5 g",
+        "purpose": "digestive health"
+      }
+    ],
+    "benefits": [
+      "Supports digestive health"
+    ],
+    "packaging": "Single-serve sachets, carton of 10/15/30",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/prebiotic-inulin-sachets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Prebiotic Inulin Sachets | Private Label & Contract Manufact",
+      "description": "Prebiotic Inulin Sachets in sachets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "prebiotic inulin sachets, gut health, sachets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Digestive Enzyme Capsules",
+    "slug": "digestive-enzyme-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Gut Health",
+    "categories": [
+      "Gut Health",
+      "Capsules"
+    ],
+    "shortDescription": "Digestive Enzyme Capsules: a capsules format formulation for the gut health range.",
+    "description": "Digestive Enzyme Capsules combines Digestive enzyme blend (protease, lipase, amylase) in a capsules format, designed for the gut health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Digestive enzyme blend (protease, lipase, amylase)",
+        "strength": "300 mg",
+        "purpose": "digestion"
+      }
+    ],
+    "benefits": [
+      "Supports digestion"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/digestive-enzyme-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Digestive Enzyme Capsules | Private Label & Contract Manufac",
+      "description": "Digestive Enzyme Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "digestive enzyme capsules, gut health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Psyllium Husk Powder",
+    "slug": "psyllium-husk-powder",
+    "dosageForm": "Powders",
+    "healthCategory": "Gut Health",
+    "categories": [
+      "Gut Health",
+      "Powders"
+    ],
+    "shortDescription": "Psyllium Husk Powder: a powders format formulation for the gut health range.",
+    "description": "Psyllium Husk Powder combines Psyllium husk in a powders format, designed for the gut health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Psyllium husk",
+        "strength": "5 g per serving",
+        "purpose": "regularity"
+      }
+    ],
+    "benefits": [
+      "Supports regularity"
+    ],
+    "packaging": "Tub or jar 200 g to 1 kg; stand-up pouch; sachets",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/psyllium-husk-powder.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Psyllium Husk Powder | Private Label & Contract Manufacturin",
+      "description": "Psyllium Husk Powder in powders format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "psyllium husk powder, gut health, powders, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Triphala Extract Tablets",
+    "slug": "triphala-extract-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Gut Health",
+    "categories": [
+      "Gut Health",
+      "Tablets"
+    ],
+    "shortDescription": "Triphala Extract Tablets: a tablets format formulation for the gut health range.",
+    "description": "Triphala Extract Tablets combines Triphala extract in a tablets format, designed for the gut health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Triphala extract",
+        "strength": "500 mg",
+        "purpose": "digestive wellness"
+      }
+    ],
+    "benefits": [
+      "Supports digestive wellness"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/triphala-extract-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Triphala Extract Tablets | Private Label & Contract Manufact",
+      "description": "Triphala Extract Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "triphala extract tablets, gut health, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Zinc Carnosine & L-Glutamine Capsules",
+    "slug": "zinc-carnosine-and-l-glutamine-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Gut Health",
+    "categories": [
+      "Gut Health",
+      "Capsules"
+    ],
+    "shortDescription": "Zinc Carnosine & L-Glutamine Capsules: a capsules format formulation for the gut health range.",
+    "description": "Zinc Carnosine & L-Glutamine Capsules combines Zinc carnosine and L-glutamine in a capsules format, designed for the gut health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Zinc carnosine",
+        "strength": "75 mg",
+        "purpose": "gut lining support"
+      },
+      {
+        "ingredient": "L-glutamine",
+        "strength": "500 mg",
+        "purpose": "gut lining support"
+      }
+    ],
+    "benefits": [
+      "Supports gut lining support"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/zinc-carnosine-and-l-glutamine-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Zinc Carnosine & L-Glutamine Capsules | Private Label & Cont",
+      "description": "Zinc Carnosine & L-Glutamine Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "zinc carnosine & l-glutamine capsules, gut health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Digestive Enzyme Pellets-in-Capsule",
+    "slug": "digestive-enzyme-pellets-in-capsule",
+    "dosageForm": "Pellets-in-Capsule",
+    "healthCategory": "Gut Health",
+    "categories": [
+      "Gut Health",
+      "Pellets-in-Capsule"
+    ],
+    "shortDescription": "Digestive Enzyme Pellets-in-Capsule: a pellets-in-capsule format formulation for the gut health range.",
+    "description": "Digestive Enzyme Pellets-in-Capsule combines Enteric-coated enzyme pellets in a pellets-in-capsule format, designed for the gut health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Enteric-coated enzyme pellets",
+        "strength": "300 mg",
+        "purpose": "digestion"
+      }
+    ],
+    "benefits": [
+      "Supports digestion"
+    ],
+    "packaging": "HDPE bottle 30/60 capsules; blister strips",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/digestive-enzyme-pellets-in-capsule.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Digestive Enzyme Pellets-in-Capsule | Private Label & Contra",
+      "description": "Digestive Enzyme Pellets-in-Capsule in pellets-in-capsule format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "digestive enzyme pellets-in-capsule, gut health, pellets-in-capsule, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Vitamin C 1000 mg & Zinc Effervescent Tablets",
+    "slug": "vitamin-c-1000-mg-and-zinc-effervescent-tablets",
+    "dosageForm": "Effervescent",
+    "healthCategory": "Immunity",
+    "categories": [
+      "Immunity",
+      "Effervescent"
+    ],
+    "shortDescription": "Vitamin C 1000 mg & Zinc Effervescent Tablets: a effervescent format formulation for the immunity range.",
+    "description": "Vitamin C 1000 mg & Zinc Effervescent Tablets combines Vitamin C and Zinc in a effervescent format, designed for the immunity range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Vitamin C",
+        "strength": "1000 mg",
+        "purpose": "immune health"
+      },
+      {
+        "ingredient": "Zinc",
+        "strength": "10 mg",
+        "purpose": "normal immune function"
+      }
+    ],
+    "benefits": [
+      "Supports immune health",
+      "Supports normal immune function"
+    ],
+    "packaging": "Moisture-proof tube of 10/20 tablets; strip packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/vitamin-c-1000-mg-and-zinc-effervescent-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Vitamin C 1000 mg & Zinc Effervescent Tablets | Private Labe",
+      "description": "Vitamin C 1000 mg & Zinc Effervescent Tablets in effervescent format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "vitamin c 1000 mg & zinc effervescent tablets, immunity, effervescent, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Giloy (Tinospora cordifolia) Extract Tablets",
+    "slug": "giloy-tinospora-cordifolia-extract-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Immunity",
+    "categories": [
+      "Immunity",
+      "Tablets"
+    ],
+    "shortDescription": "Giloy (Tinospora cordifolia) Extract Tablets: a tablets format formulation for the immunity range.",
+    "description": "Giloy (Tinospora cordifolia) Extract Tablets combines Giloy stem extract in a tablets format, designed for the immunity range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Giloy stem extract",
+        "strength": "500 mg",
+        "purpose": "immune wellness"
+      }
+    ],
+    "benefits": [
+      "Supports immune wellness"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/giloy-tinospora-cordifolia-extract-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Giloy (Tinospora cordifolia) Extract Tablets | Private Label",
+      "description": "Giloy (Tinospora cordifolia) Extract Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "giloy (tinospora cordifolia) extract tablets, immunity, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Elderberry Immunity Gummies",
+    "slug": "elderberry-immunity-gummies",
+    "dosageForm": "Gummies",
+    "healthCategory": "Immunity",
+    "categories": [
+      "Immunity",
+      "Gummies"
+    ],
+    "shortDescription": "Elderberry Immunity Gummies: a gummies format formulation for the immunity range.",
+    "description": "Elderberry Immunity Gummies combines Elderberry extract, Vitamin C and Zinc in a gummies format, designed for the immunity range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Elderberry extract",
+        "strength": "150 mg",
+        "purpose": "immune health"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "45 mg",
+        "purpose": "immune health"
+      },
+      {
+        "ingredient": "Zinc",
+        "strength": "5 mg",
+        "purpose": "normal immune function"
+      }
+    ],
+    "benefits": [
+      "Supports immune health",
+      "Supports normal immune function"
+    ],
+    "packaging": "PET jar 30/60 gummies; pouch packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/elderberry-immunity-gummies.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Elderberry Immunity Gummies | Private Label & Contract Manuf",
+      "description": "Elderberry Immunity Gummies in gummies format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "elderberry immunity gummies, immunity, gummies, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Beta-Glucan & Vitamin D3 Capsules",
+    "slug": "beta-glucan-and-vitamin-d3-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Immunity",
+    "categories": [
+      "Immunity",
+      "Capsules"
+    ],
+    "shortDescription": "Beta-Glucan & Vitamin D3 Capsules: a capsules format formulation for the immunity range.",
+    "description": "Beta-Glucan & Vitamin D3 Capsules combines Beta-glucan and Vitamin D3 in a capsules format, designed for the immunity range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Beta-glucan",
+        "strength": "250 mg",
+        "purpose": "immune health"
+      },
+      {
+        "ingredient": "Vitamin D3",
+        "strength": "1000 IU",
+        "purpose": "normal immune function"
+      }
+    ],
+    "benefits": [
+      "Supports immune health",
+      "Supports normal immune function"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/beta-glucan-and-vitamin-d3-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Beta-Glucan & Vitamin D3 Capsules | Private Label & Contract",
+      "description": "Beta-Glucan & Vitamin D3 Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "beta-glucan & vitamin d3 capsules, immunity, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Quercetin & Vitamin C Capsules",
+    "slug": "quercetin-and-vitamin-c-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Immunity",
+    "categories": [
+      "Immunity",
+      "Capsules"
+    ],
+    "shortDescription": "Quercetin & Vitamin C Capsules: a capsules format formulation for the immunity range.",
+    "description": "Quercetin & Vitamin C Capsules combines Quercetin and Vitamin C in a capsules format, designed for the immunity range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Quercetin",
+        "strength": "250 mg",
+        "purpose": "antioxidant protection"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "250 mg",
+        "purpose": "immune health"
+      }
+    ],
+    "benefits": [
+      "Supports antioxidant protection",
+      "Supports immune health"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/quercetin-and-vitamin-c-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Quercetin & Vitamin C Capsules | Private Label & Contract Ma",
+      "description": "Quercetin & Vitamin C Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "quercetin & vitamin c capsules, immunity, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Amla, Vitamin C & Zinc Oral Shots",
+    "slug": "amla-vitamin-c-and-zinc-oral-shots",
+    "dosageForm": "Oral Shots",
+    "healthCategory": "Immunity",
+    "categories": [
+      "Immunity",
+      "Oral Shots"
+    ],
+    "shortDescription": "Amla, Vitamin C & Zinc Oral Shots: a oral shots format formulation for the immunity range.",
+    "description": "Amla, Vitamin C & Zinc Oral Shots combines Amla extract, Vitamin C and Zinc in a oral shots format, designed for the immunity range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Amla extract",
+        "strength": "500 mg",
+        "purpose": "antioxidant protection"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "strength": "60 mg",
+        "purpose": "immune health"
+      },
+      {
+        "ingredient": "Zinc",
+        "strength": "5 mg",
+        "purpose": "normal immune function"
+      }
+    ],
+    "benefits": [
+      "Supports antioxidant protection",
+      "Supports immune health",
+      "Supports normal immune function"
+    ],
+    "packaging": "10-30 ml shot bottles or ampoules; carton of 10/30",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/amla-vitamin-c-and-zinc-oral-shots.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Amla, Vitamin C & Zinc Oral Shots | Private Label & Contract",
+      "description": "Amla, Vitamin C & Zinc Oral Shots in oral shots format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "amla, vitamin c & zinc oral shots, immunity, oral shots, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Vitamin C & Zinc Capsule-in-Capsule",
+    "slug": "vitamin-c-and-zinc-capsule-in-capsule",
+    "dosageForm": "Capsule-in-Capsule",
+    "healthCategory": "Immunity",
+    "categories": [
+      "Immunity",
+      "Capsule-in-Capsule"
+    ],
+    "shortDescription": "Vitamin C & Zinc Capsule-in-Capsule: a capsule-in-capsule format formulation for the immunity range.",
+    "description": "Vitamin C & Zinc Capsule-in-Capsule combines Vitamin C (inner capsule) and Zinc (outer capsule) in a capsule-in-capsule format, designed for the immunity range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Vitamin C (inner capsule)",
+        "strength": "250 mg",
+        "purpose": "immune health"
+      },
+      {
+        "ingredient": "Zinc (outer capsule)",
+        "strength": "10 mg",
+        "purpose": "normal immune function"
+      }
+    ],
+    "benefits": [
+      "Supports immune health",
+      "Supports normal immune function"
+    ],
+    "packaging": "HDPE bottle 30/60 capsules; Alu-Alu blister strips",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/vitamin-c-and-zinc-capsule-in-capsule.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Vitamin C & Zinc Capsule-in-Capsule | Private Label & Contra",
+      "description": "Vitamin C & Zinc Capsule-in-Capsule in capsule-in-capsule format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "vitamin c & zinc capsule-in-capsule, immunity, capsule-in-capsule, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Calcium, Vitamin D3 & K2 Tablets",
+    "slug": "calcium-vitamin-d3-and-k2-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Bone & Joint",
+    "categories": [
+      "Bone & Joint",
+      "Tablets"
+    ],
+    "shortDescription": "Calcium, Vitamin D3 & K2 Tablets: a tablets format formulation for the bone & joint range.",
+    "description": "Calcium, Vitamin D3 & K2 Tablets combines Calcium, Vitamin D3 and Vitamin K2 (MK-7) in a tablets format, designed for the bone & joint range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Calcium",
+        "strength": "500 mg",
+        "purpose": "bone health"
+      },
+      {
+        "ingredient": "Vitamin D3",
+        "strength": "250 IU",
+        "purpose": "calcium absorption"
+      },
+      {
+        "ingredient": "Vitamin K2 (MK-7)",
+        "strength": "45 mcg",
+        "purpose": "bone health"
+      }
+    ],
+    "benefits": [
+      "Supports bone health",
+      "Supports calcium absorption"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/calcium-vitamin-d3-and-k2-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Calcium, Vitamin D3 & K2 Tablets | Private Label & Contract ",
+      "description": "Calcium, Vitamin D3 & K2 Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "calcium, vitamin d3 & k2 tablets, bone & joint, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Glucosamine, Chondroitin & MSM Tablets",
+    "slug": "glucosamine-chondroitin-and-msm-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Bone & Joint",
+    "categories": [
+      "Bone & Joint",
+      "Tablets"
+    ],
+    "shortDescription": "Glucosamine, Chondroitin & MSM Tablets: a tablets format formulation for the bone & joint range.",
+    "description": "Glucosamine, Chondroitin & MSM Tablets combines Glucosamine sulfate, Chondroitin sulfate and MSM in a tablets format, designed for the bone & joint range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Glucosamine sulfate",
+        "strength": "750 mg",
+        "purpose": "joint comfort"
+      },
+      {
+        "ingredient": "Chondroitin sulfate",
+        "strength": "600 mg",
+        "purpose": "joint comfort"
+      },
+      {
+        "ingredient": "MSM",
+        "strength": "500 mg",
+        "purpose": "joint comfort"
+      }
+    ],
+    "benefits": [
+      "Supports joint comfort"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/glucosamine-chondroitin-and-msm-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Glucosamine, Chondroitin & MSM Tablets | Private Label & Con",
+      "description": "Glucosamine, Chondroitin & MSM Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "glucosamine, chondroitin & msm tablets, bone & joint, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Undenatured Collagen Type II Capsules",
+    "slug": "undenatured-collagen-type-ii-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Bone & Joint",
+    "categories": [
+      "Bone & Joint",
+      "Capsules"
+    ],
+    "shortDescription": "Undenatured Collagen Type II Capsules: a capsules format formulation for the bone & joint range.",
+    "description": "Undenatured Collagen Type II Capsules combines Undenatured type II collagen in a capsules format, designed for the bone & joint range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Undenatured type II collagen",
+        "strength": "40 mg",
+        "purpose": "joint flexibility"
+      }
+    ],
+    "benefits": [
+      "Supports joint flexibility"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/undenatured-collagen-type-ii-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Undenatured Collagen Type II Capsules | Private Label & Cont",
+      "description": "Undenatured Collagen Type II Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "undenatured collagen type ii capsules, bone & joint, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Curcumin with Piperine Liquid-Filled Capsules",
+    "slug": "curcumin-with-piperine-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Bone & Joint",
+    "categories": [
+      "Bone & Joint",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Curcumin with Piperine Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the bone & joint range.",
+    "description": "Curcumin with Piperine Liquid-Filled Capsules combines Curcumin (95% curcuminoids) and Piperine in a liquid-filled hard capsules format, designed for the bone & joint range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Curcumin (95% curcuminoids)",
+        "strength": "500 mg",
+        "purpose": "joint comfort"
+      },
+      {
+        "ingredient": "Piperine",
+        "strength": "5 mg",
+        "purpose": "curcumin absorption"
+      }
+    ],
+    "benefits": [
+      "Supports joint comfort",
+      "Supports curcumin absorption"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/curcumin-with-piperine-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Curcumin with Piperine Liquid-Filled Capsules | Private Labe",
+      "description": "Curcumin with Piperine Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "curcumin with piperine liquid-filled capsules, bone & joint, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Calcium & Vitamin D3 Oral Suspension",
+    "slug": "calcium-and-vitamin-d3-oral-suspension",
+    "dosageForm": "Liquids & Syrups",
+    "healthCategory": "Bone & Joint",
+    "categories": [
+      "Bone & Joint",
+      "Liquids & Syrups"
+    ],
+    "shortDescription": "Calcium & Vitamin D3 Oral Suspension: a liquids & syrups format formulation for the bone & joint range.",
+    "description": "Calcium & Vitamin D3 Oral Suspension combines Calcium and Vitamin D3 in a liquids & syrups format, designed for the bone & joint range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Calcium",
+        "strength": "250 mg per 5 ml",
+        "purpose": "bone health"
+      },
+      {
+        "ingredient": "Vitamin D3",
+        "strength": "200 IU per 5 ml",
+        "purpose": "calcium absorption"
+      }
+    ],
+    "benefits": [
+      "Supports bone health",
+      "Supports calcium absorption"
+    ],
+    "packaging": "PET or amber bottle 100/200 ml; dosing cup/spoon",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/calcium-and-vitamin-d3-oral-suspension.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Calcium & Vitamin D3 Oral Suspension | Private Label & Contr",
+      "description": "Calcium & Vitamin D3 Oral Suspension in liquids & syrups format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "calcium & vitamin d3 oral suspension, bone & joint, liquids & syrups, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Collagen & Glucosamine Joint Sachets",
+    "slug": "collagen-and-glucosamine-joint-sachets",
+    "dosageForm": "Sachets",
+    "healthCategory": "Bone & Joint",
+    "categories": [
+      "Bone & Joint",
+      "Sachets"
+    ],
+    "shortDescription": "Collagen & Glucosamine Joint Sachets: a sachets format formulation for the bone & joint range.",
+    "description": "Collagen & Glucosamine Joint Sachets combines Collagen peptides and Glucosamine in a sachets format, designed for the bone & joint range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Collagen peptides",
+        "strength": "5000 mg",
+        "purpose": "joint comfort"
+      },
+      {
+        "ingredient": "Glucosamine",
+        "strength": "750 mg",
+        "purpose": "joint comfort"
+      }
+    ],
+    "benefits": [
+      "Supports joint comfort"
+    ],
+    "packaging": "Single-serve sachets, carton of 10/15/30",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/collagen-and-glucosamine-joint-sachets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Collagen & Glucosamine Joint Sachets | Private Label & Contr",
+      "description": "Collagen & Glucosamine Joint Sachets in sachets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "collagen & glucosamine joint sachets, bone & joint, sachets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Vitamin K2 (MK-7) 100 mcg Liquid-Filled Capsules",
+    "slug": "vitamin-k2-mk-7-100-mcg-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Bone & Joint",
+    "categories": [
+      "Bone & Joint",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Vitamin K2 (MK-7) 100 mcg Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the bone & joint range.",
+    "description": "Vitamin K2 (MK-7) 100 mcg Liquid-Filled Capsules combines Menaquinone-7 (Vitamin K2) in a liquid-filled hard capsules format, designed for the bone & joint range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Menaquinone-7 (Vitamin K2)",
+        "strength": "100 mcg",
+        "purpose": "bone health"
+      }
+    ],
+    "benefits": [
+      "Supports bone health"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/vitamin-k2-mk-7-100-mcg-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Vitamin K2 (MK-7) 100 mcg Liquid-Filled Capsules | Private L",
+      "description": "Vitamin K2 (MK-7) 100 mcg Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "vitamin k2 (mk-7) 100 mcg liquid-filled capsules, bone & joint, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Bacopa Monnieri Extract Capsules",
+    "slug": "bacopa-monnieri-extract-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Brain Health",
+    "categories": [
+      "Brain Health",
+      "Capsules"
+    ],
+    "shortDescription": "Bacopa Monnieri Extract Capsules: a capsules format formulation for the brain health range.",
+    "description": "Bacopa Monnieri Extract Capsules combines Bacopa monnieri extract (50% bacosides) in a capsules format, designed for the brain health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Bacopa monnieri extract (50% bacosides)",
+        "strength": "300 mg",
+        "purpose": "memory and focus"
+      }
+    ],
+    "benefits": [
+      "Supports memory and focus"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/bacopa-monnieri-extract-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Bacopa Monnieri Extract Capsules | Private Label & Contract ",
+      "description": "Bacopa Monnieri Extract Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "bacopa monnieri extract capsules, brain health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Alpha-GPC Capsules",
+    "slug": "alpha-gpc-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Brain Health",
+    "categories": [
+      "Brain Health",
+      "Capsules"
+    ],
+    "shortDescription": "Alpha-GPC Capsules: a capsules format formulation for the brain health range.",
+    "description": "Alpha-GPC Capsules combines Alpha-GPC in a capsules format, designed for the brain health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Alpha-GPC",
+        "strength": "300 mg",
+        "purpose": "cognitive function"
+      }
+    ],
+    "benefits": [
+      "Supports cognitive function"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/alpha-gpc-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Alpha-GPC Capsules | Private Label & Contract Manufacturing ",
+      "description": "Alpha-GPC Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "alpha-gpc capsules, brain health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Lion's Mane Mushroom Extract Capsules",
+    "slug": "lion-s-mane-mushroom-extract-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Brain Health",
+    "categories": [
+      "Brain Health",
+      "Capsules"
+    ],
+    "shortDescription": "Lion's Mane Mushroom Extract Capsules: a capsules format formulation for the brain health range.",
+    "description": "Lion's Mane Mushroom Extract Capsules combines Lion's mane mushroom extract in a capsules format, designed for the brain health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Lion's mane mushroom extract",
+        "strength": "500 mg",
+        "purpose": "cognitive wellness"
+      }
+    ],
+    "benefits": [
+      "Supports cognitive wellness"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/lion-s-mane-mushroom-extract-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Lion's Mane Mushroom Extract Capsules | Private Label & Cont",
+      "description": "Lion's Mane Mushroom Extract Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "lion's mane mushroom extract capsules, brain health, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Ginkgo Biloba Extract Tablets",
+    "slug": "ginkgo-biloba-extract-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Brain Health",
+    "categories": [
+      "Brain Health",
+      "Tablets"
+    ],
+    "shortDescription": "Ginkgo Biloba Extract Tablets: a tablets format formulation for the brain health range.",
+    "description": "Ginkgo Biloba Extract Tablets combines Ginkgo biloba extract (24% flavone glycosides) in a tablets format, designed for the brain health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Ginkgo biloba extract (24% flavone glycosides)",
+        "strength": "120 mg",
+        "purpose": "memory and circulation"
+      }
+    ],
+    "benefits": [
+      "Supports memory and circulation"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/ginkgo-biloba-extract-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Ginkgo Biloba Extract Tablets | Private Label & Contract Man",
+      "description": "Ginkgo Biloba Extract Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "ginkgo biloba extract tablets, brain health, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Phosphatidylserine & DHA Softgels",
+    "slug": "phosphatidylserine-and-dha-softgels",
+    "dosageForm": "Softgels",
+    "healthCategory": "Brain Health",
+    "categories": [
+      "Brain Health",
+      "Softgels"
+    ],
+    "shortDescription": "Phosphatidylserine & DHA Softgels: a softgels format formulation for the brain health range.",
+    "description": "Phosphatidylserine & DHA Softgels combines Phosphatidylserine and DHA in a softgels format, designed for the brain health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Phosphatidylserine",
+        "strength": "100 mg",
+        "purpose": "cognitive function"
+      },
+      {
+        "ingredient": "DHA",
+        "strength": "250 mg",
+        "purpose": "brain health"
+      }
+    ],
+    "benefits": [
+      "Supports cognitive function",
+      "Supports brain health"
+    ],
+    "packaging": "HDPE bottle 30/60 softgels; blister packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/phosphatidylserine-and-dha-softgels.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Phosphatidylserine & DHA Softgels | Private Label & Contract",
+      "description": "Phosphatidylserine & DHA Softgels in softgels format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "phosphatidylserine & dha softgels, brain health, softgels, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Brahmi & Shankhpushpi Syrup",
+    "slug": "brahmi-and-shankhpushpi-syrup",
+    "dosageForm": "Liquids & Syrups",
+    "healthCategory": "Brain Health",
+    "categories": [
+      "Brain Health",
+      "Liquids & Syrups"
+    ],
+    "shortDescription": "Brahmi & Shankhpushpi Syrup: a liquids & syrups format formulation for the brain health range.",
+    "description": "Brahmi & Shankhpushpi Syrup combines Brahmi extract and Shankhpushpi extract in a liquids & syrups format, designed for the brain health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Brahmi extract",
+        "strength": "300 mg per 10 ml",
+        "purpose": "memory and focus"
+      },
+      {
+        "ingredient": "Shankhpushpi extract",
+        "strength": "200 mg per 10 ml",
+        "purpose": "mental wellness"
+      }
+    ],
+    "benefits": [
+      "Supports memory and focus",
+      "Supports mental wellness"
+    ],
+    "packaging": "PET or amber bottle 100/200 ml; dosing cup/spoon",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/brahmi-and-shankhpushpi-syrup.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Brahmi & Shankhpushpi Syrup | Private Label & Contract Manuf",
+      "description": "Brahmi & Shankhpushpi Syrup in liquids & syrups format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "brahmi & shankhpushpi syrup, brain health, liquids & syrups, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Ashwagandha Root Extract Capsules",
+    "slug": "ashwagandha-root-extract-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Sleep & Stress",
+    "categories": [
+      "Sleep & Stress",
+      "Capsules"
+    ],
+    "shortDescription": "Ashwagandha Root Extract Capsules: a capsules format formulation for the sleep & stress range.",
+    "description": "Ashwagandha Root Extract Capsules combines Ashwagandha root extract (5% withanolides) in a capsules format, designed for the sleep & stress range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Ashwagandha root extract (5% withanolides)",
+        "strength": "300 mg",
+        "purpose": "stress resilience"
+      }
+    ],
+    "benefits": [
+      "Supports stress resilience"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/ashwagandha-root-extract-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Ashwagandha Root Extract Capsules | Private Label & Contract",
+      "description": "Ashwagandha Root Extract Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "ashwagandha root extract capsules, sleep & stress, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "L-Theanine 200 mg Capsules",
+    "slug": "l-theanine-200-mg-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Sleep & Stress",
+    "categories": [
+      "Sleep & Stress",
+      "Capsules"
+    ],
+    "shortDescription": "L-Theanine 200 mg Capsules: a capsules format formulation for the sleep & stress range.",
+    "description": "L-Theanine 200 mg Capsules combines L-theanine in a capsules format, designed for the sleep & stress range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "L-theanine",
+        "strength": "200 mg",
+        "purpose": "relaxation"
+      }
+    ],
+    "benefits": [
+      "Supports relaxation"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/l-theanine-200-mg-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "L-Theanine 200 mg Capsules | Private Label & Contract Manufa",
+      "description": "L-Theanine 200 mg Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "l-theanine 200 mg capsules, sleep & stress, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Magnesium Glycinate Tablets",
+    "slug": "magnesium-glycinate-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Sleep & Stress",
+    "categories": [
+      "Sleep & Stress",
+      "Tablets"
+    ],
+    "shortDescription": "Magnesium Glycinate Tablets: a tablets format formulation for the sleep & stress range.",
+    "description": "Magnesium Glycinate Tablets combines Magnesium (as glycinate) in a tablets format, designed for the sleep & stress range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Magnesium (as glycinate)",
+        "strength": "200 mg",
+        "purpose": "relaxation and muscle function"
+      }
+    ],
+    "benefits": [
+      "Supports relaxation and muscle function"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/magnesium-glycinate-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Magnesium Glycinate Tablets | Private Label & Contract Manuf",
+      "description": "Magnesium Glycinate Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "magnesium glycinate tablets, sleep & stress, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Valerian & Passionflower Capsules",
+    "slug": "valerian-and-passionflower-capsules",
+    "dosageForm": "Capsules",
+    "healthCategory": "Sleep & Stress",
+    "categories": [
+      "Sleep & Stress",
+      "Capsules"
+    ],
+    "shortDescription": "Valerian & Passionflower Capsules: a capsules format formulation for the sleep & stress range.",
+    "description": "Valerian & Passionflower Capsules combines Valerian root extract and Passionflower extract in a capsules format, designed for the sleep & stress range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Valerian root extract",
+        "strength": "300 mg",
+        "purpose": "restful sleep"
+      },
+      {
+        "ingredient": "Passionflower extract",
+        "strength": "200 mg",
+        "purpose": "relaxation"
+      }
+    ],
+    "benefits": [
+      "Supports restful sleep",
+      "Supports relaxation"
+    ],
+    "packaging": "HDPE bottle 30/60/90 capsules; blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/valerian-and-passionflower-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Valerian & Passionflower Capsules | Private Label & Contract",
+      "description": "Valerian & Passionflower Capsules in capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "valerian & passionflower capsules, sleep & stress, capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Calm & Relax Gummies",
+    "slug": "calm-and-relax-gummies",
+    "dosageForm": "Gummies",
+    "healthCategory": "Sleep & Stress",
+    "categories": [
+      "Sleep & Stress",
+      "Gummies"
+    ],
+    "shortDescription": "Calm & Relax Gummies: a gummies format formulation for the sleep & stress range.",
+    "description": "Calm & Relax Gummies combines L-theanine, Magnesium and Chamomile extract in a gummies format, designed for the sleep & stress range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "L-theanine",
+        "strength": "100 mg",
+        "purpose": "relaxation"
+      },
+      {
+        "ingredient": "Magnesium",
+        "strength": "50 mg",
+        "purpose": "relaxation and muscle function"
+      },
+      {
+        "ingredient": "Chamomile extract",
+        "strength": "50 mg",
+        "purpose": "calm"
+      }
+    ],
+    "benefits": [
+      "Supports relaxation",
+      "Supports relaxation and muscle function",
+      "Supports calm"
+    ],
+    "packaging": "PET jar 30/60 gummies; pouch packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/calm-and-relax-gummies.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Calm & Relax Gummies | Private Label & Contract Manufacturin",
+      "description": "Calm & Relax Gummies in gummies format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "calm & relax gummies, sleep & stress, gummies, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Ashwagandha & L-Theanine Oral Shots",
+    "slug": "ashwagandha-and-l-theanine-oral-shots",
+    "dosageForm": "Oral Shots",
+    "healthCategory": "Sleep & Stress",
+    "categories": [
+      "Sleep & Stress",
+      "Oral Shots"
+    ],
+    "shortDescription": "Ashwagandha & L-Theanine Oral Shots: a oral shots format formulation for the sleep & stress range.",
+    "description": "Ashwagandha & L-Theanine Oral Shots combines Ashwagandha extract, L-theanine and Vitamin B6 in a oral shots format, designed for the sleep & stress range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Ashwagandha extract",
+        "strength": "150 mg",
+        "purpose": "stress resilience"
+      },
+      {
+        "ingredient": "L-theanine",
+        "strength": "100 mg",
+        "purpose": "relaxation"
+      },
+      {
+        "ingredient": "Vitamin B6",
+        "strength": "1.4 mg",
+        "purpose": "normal nervous system function"
+      }
+    ],
+    "benefits": [
+      "Supports stress resilience",
+      "Supports relaxation",
+      "Supports normal nervous system function"
+    ],
+    "packaging": "10-30 ml shot bottles or ampoules; carton of 10/30",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/ashwagandha-and-l-theanine-oral-shots.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Ashwagandha & L-Theanine Oral Shots | Private Label & Contra",
+      "description": "Ashwagandha & L-Theanine Oral Shots in oral shots format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "ashwagandha & l-theanine oral shots, sleep & stress, oral shots, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Kids Multivitamin Gummies",
+    "slug": "kids-multivitamin-gummies",
+    "dosageForm": "Gummies",
+    "healthCategory": "Specialized Nutrition",
+    "categories": [
+      "Specialized Nutrition",
+      "Gummies"
+    ],
+    "shortDescription": "Kids Multivitamin Gummies: a gummies format formulation for the specialized nutrition range.",
+    "description": "Kids Multivitamin Gummies combines Vitamin C, Vitamin D3, Zinc and Vitamin B12 in a gummies format, designed for the specialized nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Vitamin C",
+        "strength": "40 mg",
+        "purpose": "immune health"
+      },
+      {
+        "ingredient": "Vitamin D3",
+        "strength": "200 IU",
+        "purpose": "bone health"
+      },
+      {
+        "ingredient": "Zinc",
+        "strength": "3 mg",
+        "purpose": "normal immune function"
+      },
+      {
+        "ingredient": "Vitamin B12",
+        "strength": "1.2 mcg",
+        "purpose": "energy metabolism"
+      }
+    ],
+    "benefits": [
+      "Supports immune health",
+      "Supports bone health",
+      "Supports normal immune function",
+      "Supports energy metabolism"
+    ],
+    "packaging": "PET jar 30/60 gummies; pouch packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/kids-multivitamin-gummies.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Paediatric product: age-specific dosing and regulatory review required.",
+    "seo": {
+      "title": "Kids Multivitamin Gummies | Private Label & Contract Manufac",
+      "description": "Kids Multivitamin Gummies in gummies format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "kids multivitamin gummies, specialized nutrition, gummies, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Adult Oral Nutrition Powder",
+    "slug": "adult-oral-nutrition-powder",
+    "dosageForm": "Powders",
+    "healthCategory": "Specialized Nutrition",
+    "categories": [
+      "Specialized Nutrition",
+      "Powders"
+    ],
+    "shortDescription": "Adult Oral Nutrition Powder: a powders format formulation for the specialized nutrition range.",
+    "description": "Adult Oral Nutrition Powder combines Protein blend and Vitamin and mineral premix in a powders format, designed for the specialized nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Protein blend",
+        "strength": "approx. 15 g per 50 g serving",
+        "purpose": "nutritional support"
+      },
+      {
+        "ingredient": "Vitamin and mineral premix",
+        "strength": "per regulation",
+        "purpose": "nutritional support"
+      }
+    ],
+    "benefits": [
+      "Supports nutritional support"
+    ],
+    "packaging": "Tub or jar 200 g to 1 kg; stand-up pouch; sachets",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/adult-oral-nutrition-powder.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Confirm whether classified as supplement or food for special medical purposes.",
+    "seo": {
+      "title": "Adult Oral Nutrition Powder | Private Label & Contract Manuf",
+      "description": "Adult Oral Nutrition Powder in powders format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "adult oral nutrition powder, specialized nutrition, powders, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Glucose Metabolism Support Tablets",
+    "slug": "glucose-metabolism-support-tablets",
+    "dosageForm": "Tablets",
+    "healthCategory": "Specialized Nutrition",
+    "categories": [
+      "Specialized Nutrition",
+      "Tablets"
+    ],
+    "shortDescription": "Glucose Metabolism Support Tablets: a tablets format formulation for the specialized nutrition range.",
+    "description": "Glucose Metabolism Support Tablets combines Chromium picolinate, Bitter melon extract and Cinnamon extract in a tablets format, designed for the specialized nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Chromium picolinate",
+        "strength": "200 mcg",
+        "purpose": "healthy glucose metabolism"
+      },
+      {
+        "ingredient": "Bitter melon extract",
+        "strength": "500 mg",
+        "purpose": "healthy glucose metabolism"
+      },
+      {
+        "ingredient": "Cinnamon extract",
+        "strength": "250 mg",
+        "purpose": "healthy glucose metabolism"
+      }
+    ],
+    "benefits": [
+      "Supports healthy glucose metabolism"
+    ],
+    "packaging": "HDPE bottle 30/60/90 tablets; Alu-Alu or PVC blister strips; bulk packing on request",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/glucose-metabolism-support-tablets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "High claim sensitivity: avoid disease or treatment claims.",
+    "seo": {
+      "title": "Glucose Metabolism Support Tablets | Private Label & Contrac",
+      "description": "Glucose Metabolism Support Tablets in tablets format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "glucose metabolism support tablets, specialized nutrition, tablets, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Electrolyte Rehydration Powder Sachets",
+    "slug": "electrolyte-rehydration-powder-sachets",
+    "dosageForm": "Powders",
+    "healthCategory": "Specialized Nutrition",
+    "categories": [
+      "Specialized Nutrition",
+      "Powders"
+    ],
+    "shortDescription": "Electrolyte Rehydration Powder Sachets: a powders format formulation for the specialized nutrition range.",
+    "description": "Electrolyte Rehydration Powder Sachets combines Sodium, Potassium and Glucose in a powders format, designed for the specialized nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Sodium",
+        "strength": "per regulation",
+        "purpose": "hydration"
+      },
+      {
+        "ingredient": "Potassium",
+        "strength": "per regulation",
+        "purpose": "hydration"
+      },
+      {
+        "ingredient": "Glucose",
+        "strength": "per regulation",
+        "purpose": "fluid absorption"
+      }
+    ],
+    "benefits": [
+      "Supports hydration",
+      "Supports fluid absorption"
+    ],
+    "packaging": "Tub or jar 200 g to 1 kg; stand-up pouch; sachets",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/electrolyte-rehydration-powder-sachets.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "May be regulated as a medical or special-purpose product in some markets.",
+    "seo": {
+      "title": "Electrolyte Rehydration Powder Sachets | Private Label & Con",
+      "description": "Electrolyte Rehydration Powder Sachets in powders format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "electrolyte rehydration powder sachets, specialized nutrition, powders, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Paediatric Iron & Folic Acid Syrup",
+    "slug": "paediatric-iron-and-folic-acid-syrup",
+    "dosageForm": "Liquids & Syrups",
+    "healthCategory": "Specialized Nutrition",
+    "categories": [
+      "Specialized Nutrition",
+      "Liquids & Syrups"
+    ],
+    "shortDescription": "Paediatric Iron & Folic Acid Syrup: a liquids & syrups format formulation for the specialized nutrition range.",
+    "description": "Paediatric Iron & Folic Acid Syrup combines Elemental iron (iron polymaltose) and Folic acid in a liquids & syrups format, designed for the specialized nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Elemental iron (iron polymaltose)",
+        "strength": "20 mg per 5 ml",
+        "purpose": "healthy blood formation"
+      },
+      {
+        "ingredient": "Folic acid",
+        "strength": "100 mcg per 5 ml",
+        "purpose": "red blood cell formation"
+      }
+    ],
+    "benefits": [
+      "Supports healthy blood formation",
+      "Supports red blood cell formation"
+    ],
+    "packaging": "PET or amber bottle 100/200 ml; dosing cup/spoon",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/paediatric-iron-and-folic-acid-syrup.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Paediatric product: strict dosing and regulatory review required.",
+    "seo": {
+      "title": "Paediatric Iron & Folic Acid Syrup | Private Label & Contrac",
+      "description": "Paediatric Iron & Folic Acid Syrup in liquids & syrups format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "paediatric iron & folic acid syrup, specialized nutrition, liquids & syrups, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Vegan Algal DHA Capsules",
+    "slug": "vegan-algal-dha-capsules",
+    "dosageForm": "Softgels",
+    "healthCategory": "Specialized Nutrition",
+    "categories": [
+      "Specialized Nutrition",
+      "Softgels"
+    ],
+    "shortDescription": "Vegan Algal DHA Capsules: a softgels format formulation for the specialized nutrition range.",
+    "description": "Vegan Algal DHA Capsules combines Algal DHA oil in a softgels format, designed for the specialized nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Algal DHA oil",
+        "strength": "250 mg",
+        "purpose": "brain and eye health"
+      }
+    ],
+    "benefits": [
+      "Supports brain and eye health"
+    ],
+    "packaging": "HDPE bottle 30/60 softgels; blister packs",
+    "moq": "On request",
+    "featured": false,
+    "images": [
+      "/uploads/products/vegan-algal-dha-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Vegan Algal DHA Capsules | Private Label & Contract Manufact",
+      "description": "Vegan Algal DHA Capsules in softgels format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "vegan algal dha capsules, specialized nutrition, softgels, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Vitamin D3 & K2 Liquid-Filled Capsules",
+    "slug": "vitamin-d3-and-k2-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Daily Wellness",
+    "categories": [
+      "Daily Wellness",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Vitamin D3 & K2 Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the daily wellness range.",
+    "description": "Vitamin D3 & K2 Liquid-Filled Capsules combines Cholecalciferol (Vitamin D3) and Menaquinone-7 (Vitamin K2) in a liquid-filled hard capsules format, designed for the daily wellness range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Cholecalciferol (Vitamin D3)",
+        "strength": "2000 IU",
+        "purpose": "bone health"
+      },
+      {
+        "ingredient": "Menaquinone-7 (Vitamin K2)",
+        "strength": "90 mcg",
+        "purpose": "bone health"
+      }
+    ],
+    "benefits": [
+      "Supports bone health"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/vitamin-d3-and-k2-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Vitamin D3 & K2 Liquid-Filled Capsules | Private Label & Con",
+      "description": "Vitamin D3 & K2 Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "vitamin d3 & k2 liquid-filled capsules, daily wellness, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Pumpkin Seed Oil & Lycopene Liquid-Filled Capsules",
+    "slug": "pumpkin-seed-oil-and-lycopene-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Men's Health",
+    "categories": [
+      "Men's Health",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Pumpkin Seed Oil & Lycopene Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the men's health range.",
+    "description": "Pumpkin Seed Oil & Lycopene Liquid-Filled Capsules combines Pumpkin seed oil and Lycopene in a liquid-filled hard capsules format, designed for the men's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Pumpkin seed oil",
+        "strength": "500 mg",
+        "purpose": "men's wellness"
+      },
+      {
+        "ingredient": "Lycopene",
+        "strength": "10 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports men's wellness",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/pumpkin-seed-oil-and-lycopene-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Pumpkin Seed Oil & Lycopene Liquid-Filled Capsules | Private",
+      "description": "Pumpkin Seed Oil & Lycopene Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "pumpkin seed oil & lycopene liquid-filled capsules, men's health, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Evening Primrose & Vitamin E Liquid-Filled Capsules",
+    "slug": "evening-primrose-and-vitamin-e-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Women's Health",
+    "categories": [
+      "Women's Health",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Evening Primrose & Vitamin E Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the women's health range.",
+    "description": "Evening Primrose & Vitamin E Liquid-Filled Capsules combines Evening primrose oil (9% GLA) and Vitamin E in a liquid-filled hard capsules format, designed for the women's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Evening primrose oil (9% GLA)",
+        "strength": "500 mg",
+        "purpose": "women's wellness"
+      },
+      {
+        "ingredient": "Vitamin E",
+        "strength": "10 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports women's wellness",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/evening-primrose-and-vitamin-e-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Evening Primrose & Vitamin E Liquid-Filled Capsules | Privat",
+      "description": "Evening Primrose & Vitamin E Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "evening primrose & vitamin e liquid-filled capsules, women's health, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "MCT Oil Liquid-Filled Capsules",
+    "slug": "mct-oil-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Sports Nutrition",
+    "categories": [
+      "Sports Nutrition",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "MCT Oil Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the sports nutrition range.",
+    "description": "MCT Oil Liquid-Filled Capsules combines Medium-chain triglycerides (C8/C10) in a liquid-filled hard capsules format, designed for the sports nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Medium-chain triglycerides (C8/C10)",
+        "strength": "1000 mg",
+        "purpose": "sustained energy"
+      }
+    ],
+    "benefits": [
+      "Supports sustained energy"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/mct-oil-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "MCT Oil Liquid-Filled Capsules | Private Label & Contract Ma",
+      "description": "MCT Oil Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "mct oil liquid-filled capsules, sports nutrition, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Lutein & Astaxanthin Liquid-Filled Capsules",
+    "slug": "lutein-and-astaxanthin-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Healthy Ageing",
+    "categories": [
+      "Healthy Ageing",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Lutein & Astaxanthin Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the healthy ageing range.",
+    "description": "Lutein & Astaxanthin Liquid-Filled Capsules combines Lutein and Astaxanthin in a liquid-filled hard capsules format, designed for the healthy ageing range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Lutein",
+        "strength": "10 mg",
+        "purpose": "eye health"
+      },
+      {
+        "ingredient": "Astaxanthin",
+        "strength": "4 mg",
+        "purpose": "antioxidant protection"
+      }
+    ],
+    "benefits": [
+      "Supports eye health",
+      "Supports antioxidant protection"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/lutein-and-astaxanthin-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Lutein & Astaxanthin Liquid-Filled Capsules | Private Label ",
+      "description": "Lutein & Astaxanthin Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "lutein & astaxanthin liquid-filled capsules, healthy ageing, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Vegan Algal DHA Liquid-Filled Capsules",
+    "slug": "vegan-algal-dha-liquid-filled-capsules",
+    "dosageForm": "Liquid-Filled Hard Capsules",
+    "healthCategory": "Specialized Nutrition",
+    "categories": [
+      "Specialized Nutrition",
+      "Liquid-Filled Hard Capsules"
+    ],
+    "shortDescription": "Vegan Algal DHA Liquid-Filled Capsules: a liquid-filled hard capsules format formulation for the specialized nutrition range.",
+    "description": "Vegan Algal DHA Liquid-Filled Capsules combines Algal DHA oil in a liquid-filled hard capsules format, designed for the specialized nutrition range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Algal DHA oil",
+        "strength": "250 mg",
+        "purpose": "brain and eye health"
+      }
+    ],
+    "benefits": [
+      "Supports brain and eye health"
+    ],
+    "packaging": "HDPE or amber bottle 30/60 capsules; Alu-Alu blister strips (moisture barrier)",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/vegan-algal-dha-liquid-filled-capsules.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Vegan Algal DHA Liquid-Filled Capsules | Private Label & Con",
+      "description": "Vegan Algal DHA Liquid-Filled Capsules in liquid-filled hard capsules format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "vegan algal dha liquid-filled capsules, specialized nutrition, liquid-filled hard capsules, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Probiotic & Prebiotic Capsule-in-Capsule",
+    "slug": "probiotic-and-prebiotic-capsule-in-capsule",
+    "dosageForm": "Capsule-in-Capsule",
+    "healthCategory": "Gut Health",
+    "categories": [
+      "Gut Health",
+      "Capsule-in-Capsule"
+    ],
+    "shortDescription": "Probiotic & Prebiotic Capsule-in-Capsule: a capsule-in-capsule format formulation for the gut health range.",
+    "description": "Probiotic & Prebiotic Capsule-in-Capsule combines Probiotic blend (inner capsule) and Inulin (outer capsule) in a capsule-in-capsule format, designed for the gut health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Probiotic blend (inner capsule)",
+        "strength": "5 billion CFU",
+        "purpose": "gut microbiome balance"
+      },
+      {
+        "ingredient": "Inulin (outer capsule)",
+        "strength": "250 mg",
+        "purpose": "digestive health"
+      }
+    ],
+    "benefits": [
+      "Supports gut microbiome balance",
+      "Supports digestive health"
+    ],
+    "packaging": "HDPE bottle 30/60 capsules; Alu-Alu blister strips",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/probiotic-and-prebiotic-capsule-in-capsule.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Probiotic & Prebiotic Capsule-in-Capsule | Private Label & C",
+      "description": "Probiotic & Prebiotic Capsule-in-Capsule in capsule-in-capsule format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "probiotic & prebiotic capsule-in-capsule, gut health, capsule-in-capsule, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Iron & Vitamin C Capsule-in-Capsule",
+    "slug": "iron-and-vitamin-c-capsule-in-capsule",
+    "dosageForm": "Capsule-in-Capsule",
+    "healthCategory": "Women's Health",
+    "categories": [
+      "Women's Health",
+      "Capsule-in-Capsule"
+    ],
+    "shortDescription": "Iron & Vitamin C Capsule-in-Capsule: a capsule-in-capsule format formulation for the women's health range.",
+    "description": "Iron & Vitamin C Capsule-in-Capsule combines Iron bisglycinate (inner capsule) and Vitamin C (outer capsule) in a capsule-in-capsule format, designed for the women's health range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Iron bisglycinate (inner capsule)",
+        "strength": "30 mg",
+        "purpose": "healthy blood formation"
+      },
+      {
+        "ingredient": "Vitamin C (outer capsule)",
+        "strength": "80 mg",
+        "purpose": "iron absorption support"
+      }
+    ],
+    "benefits": [
+      "Supports healthy blood formation",
+      "Supports iron absorption support"
+    ],
+    "packaging": "HDPE bottle 30/60 capsules; Alu-Alu blister strips",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/iron-and-vitamin-c-capsule-in-capsule.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Iron & Vitamin C Capsule-in-Capsule | Private Label & Contra",
+      "description": "Iron & Vitamin C Capsule-in-Capsule in capsule-in-capsule format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "iron & vitamin c capsule-in-capsule, women's health, capsule-in-capsule, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Multivitamin Pellets-in-Capsule",
+    "slug": "multivitamin-pellets-in-capsule",
+    "dosageForm": "Pellets-in-Capsule",
+    "healthCategory": "Daily Wellness",
+    "categories": [
+      "Daily Wellness",
+      "Pellets-in-Capsule"
+    ],
+    "shortDescription": "Multivitamin Pellets-in-Capsule: a pellets-in-capsule format formulation for the daily wellness range.",
+    "description": "Multivitamin Pellets-in-Capsule combines Vitamin C (coated pellets), Vitamin B12 (pellets) and Zinc (pellets) in a pellets-in-capsule format, designed for the daily wellness range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Vitamin C (coated pellets)",
+        "strength": "80 mg",
+        "purpose": "immune health"
+      },
+      {
+        "ingredient": "Vitamin B12 (pellets)",
+        "strength": "2.4 mcg",
+        "purpose": "energy metabolism"
+      },
+      {
+        "ingredient": "Zinc (pellets)",
+        "strength": "10 mg",
+        "purpose": "normal immune function"
+      }
+    ],
+    "benefits": [
+      "Supports immune health",
+      "Supports energy metabolism",
+      "Supports normal immune function"
+    ],
+    "packaging": "HDPE bottle 30/60 capsules; blister strips",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/multivitamin-pellets-in-capsule.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Multivitamin Pellets-in-Capsule | Private Label & Contract M",
+      "description": "Multivitamin Pellets-in-Capsule in pellets-in-capsule format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "multivitamin pellets-in-capsule, daily wellness, pellets-in-capsule, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Vitamin C Sustained-Release Pellets-in-Capsule",
+    "slug": "vitamin-c-sustained-release-pellets-in-capsule",
+    "dosageForm": "Pellets-in-Capsule",
+    "healthCategory": "Immunity",
+    "categories": [
+      "Immunity",
+      "Pellets-in-Capsule"
+    ],
+    "shortDescription": "Vitamin C Sustained-Release Pellets-in-Capsule: a pellets-in-capsule format formulation for the immunity range.",
+    "description": "Vitamin C Sustained-Release Pellets-in-Capsule combines Vitamin C (sustained-release pellets) in a pellets-in-capsule format, designed for the immunity range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Vitamin C (sustained-release pellets)",
+        "strength": "500 mg",
+        "purpose": "immune health"
+      }
+    ],
+    "benefits": [
+      "Supports immune health"
+    ],
+    "packaging": "HDPE bottle 30/60 capsules; blister strips",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/vitamin-c-sustained-release-pellets-in-capsule.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Vitamin C Sustained-Release Pellets-in-Capsule | Private Lab",
+      "description": "Vitamin C Sustained-Release Pellets-in-Capsule in pellets-in-capsule format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "vitamin c sustained-release pellets-in-capsule, immunity, pellets-in-capsule, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  },
+  {
+    "name": "Magnesium & Vitamin B6 Pellets-in-Capsule",
+    "slug": "magnesium-and-vitamin-b6-pellets-in-capsule",
+    "dosageForm": "Pellets-in-Capsule",
+    "healthCategory": "Sleep & Stress",
+    "categories": [
+      "Sleep & Stress",
+      "Pellets-in-Capsule"
+    ],
+    "shortDescription": "Magnesium & Vitamin B6 Pellets-in-Capsule: a pellets-in-capsule format formulation for the sleep & stress range.",
+    "description": "Magnesium & Vitamin B6 Pellets-in-Capsule combines Magnesium (pellets) and Vitamin B6 (pellets) in a pellets-in-capsule format, designed for the sleep & stress range. Available for private label, contract manufacturing and custom formulation. Final composition, strengths and claims are confirmed during product development.",
+    "composition": [
+      {
+        "ingredient": "Magnesium (pellets)",
+        "strength": "100 mg",
+        "purpose": "relaxation and muscle function"
+      },
+      {
+        "ingredient": "Vitamin B6 (pellets)",
+        "strength": "1.4 mg",
+        "purpose": "normal nervous system function"
+      }
+    ],
+    "benefits": [
+      "Supports relaxation and muscle function",
+      "Supports normal nervous system function"
+    ],
+    "packaging": "HDPE bottle 30/60 capsules; blister strips",
+    "moq": "On request",
+    "featured": true,
+    "images": [
+      "/uploads/products/magnesium-and-vitamin-b6-pellets-in-capsule.webp"
+    ],
+    "status": "draft",
+    "contentStatus": "needs_review",
+    "claimsReviewed": false,
+    "reviewNote": "Verify strengths, permitted claims and labelling per target market regulations.",
+    "seo": {
+      "title": "Magnesium & Vitamin B6 Pellets-in-Capsule | Private Label & ",
+      "description": "Magnesium & Vitamin B6 Pellets-in-Capsule in pellets-in-capsule format. Private label and contract manufacturing by ONPHARNO.",
+      "keywords": "magnesium & vitamin b6 pellets-in-capsule, sleep & stress, pellets-in-capsule, private label, contract manufacturing"
+    },
+    "source": {
+      "type": "generic-reference",
+      "urls": [],
+      "retrievedAt": "2026-11-18"
+    }
+  }
+]
