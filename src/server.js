@@ -42,6 +42,8 @@ const clientUrls = (process.env.CLIENT_URL || 'http://localhost:5173')
 
 const allowedOrigins = [
   ...clientUrls,
+  'https://onpharno.alwaysdata.net',
+  'http://onpharno.alwaysdata.net',
   'https://gopal.alwaysdata.net',
   'https://onpharno.netlify.app',
   'https://onpharno.com',
