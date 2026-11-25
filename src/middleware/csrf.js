@@ -7,6 +7,9 @@ const getAllowedOrigins = () => {
     .filter(Boolean);
   return [
     ...fromEnv,
+    'https://onpharno.alwaysdata.net',
+    'http://onpharno.alwaysdata.net',
+    'https://gopal.alwaysdata.net',
     'https://onpharno.netlify.app',
     'https://onpharno.com',
     'https://www.onpharno.com',
